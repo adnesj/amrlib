@@ -36,3 +36,7 @@ Dockerfile.bak
 # Operating System specific files
 .DS_Store
 Thumbs.db
+
+amrlib/data/nor1000_model_generate_xfm/
+
+amrlib/data/model_generate_t5wtense-v0_1_0/
