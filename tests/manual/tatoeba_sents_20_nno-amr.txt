@@ -1,0 +1,258 @@
+# ::id tatoeba_nor.1 ::eng He does n't have the ability to do the work properly .
+# ::snt Han er ikke i stand til å gjøre arbeidet skikkelig .
+# ::snt He does n't have the ability to do the work properly .
+(c / capable-01
+      :polarity -
+      :ARG1 (h / he)
+      :ARG2 (w / work-01
+            :ARG0 h
+            :manner (p / proper)))
+
+# ::id tatoeba_nor.2 ::eng Do you know what this box is made of ?
+# ::snt Vet du hva denne boksen er laget av ?
+# ::snt Do you know what this box is made of ?
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG2-of (m / make-01
+                  :ARG1 (b / box
+                        :mod (t2 / this))))
+      :polarity (a / amr-unknown))
+
+# ::id tatoeba_nor.3 ::eng I found my first gray hair this morning .
+# ::snt Jeg fant mitt første gråe hår i morges .
+# ::snt I found my first gray hair this morning .
+(f / find-01
+      :ARG0 (ii / i
+            :part (h / hair
+                  :ARG1-of (g / gray-02)
+                  :ord (o / ordinal-entity
+                        :value 1)))
+      :ARG1 h
+      :time (d / date-entity
+            :dayperiod (m / morning)
+            :mod (t / today)))
+
+# ::id tatoeba_nor.4 ::eng You should n't eat just before you go to bed .
+# ::snt Du bør ikke spise rett før du legger deg .
+# ::snt You should n't eat just before you go to bed .
+(r / recommend-01
+      :ARG1 (e / eat-01
+            :polarity -
+            :ARG0 (y / you)
+            :time (b / before
+                  :op1 (g / go-02
+                        :ARG0 y
+                        :ARG4 (b2 / bed-down-01
+                              :ARG0 y))
+                  :mod (j / just))))
+
+# ::id tatoeba_nor.5 ::eng I got to know him when I was a student .
+# ::snt Jeg ble kjent med ham da jeg var student .
+# ::snt I got to know him when I was a student .
+(g / get-03
+      :ARG1 (ii / i)
+      :ARG2 (k / know-02
+            :ARG0 ii
+            :ARG1 (h / he))
+      :time (s / study-01
+            :ARG0 ii))
+
+# ::id tatoeba_nor.6 ::eng Tom has as many books as I have .
+# ::snt Tom har like mange bøker som meg .
+# ::snt Tom has as many books as I have .
+(h / have-quant-91
+      :ARG1 (b / book
+            :ARG1-of (h2 / have-03
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))))
+      :ARG3 (e / equal)
+      :ARG4 (b2 / book
+            :ARG1-of (h3 / have-03
+                  :ARG0 (ii / i))))
+
+# ::id tatoeba_nor.7 ::eng Those who live in glass houses should not throw stones .
+# ::snt Man skal ikke kaste stein i glasshus .
+# ::snt Those who live in glass houses should not throw stones .
+(r / recommend-01
+      :ARG1 (t / throw-01
+            :polarity -
+            :ARG0 (p / person
+                  :ARG0-of (l / live-01
+                        :location (h / house
+                              :consist-of (g / glass))))
+            :ARG1 (s / stone)))
+
+# ::id tatoeba_nor.8 ::eng I think I 'll lie down for a while .
+# ::snt Jeg tror jeg skal legge meg litt .
+# ::snt I think I 'll lie down for a while .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (l / lie-down-09
+            :ARG1 ii
+            :duration (w / while)))
+
+# ::id tatoeba_nor.9 ::eng Tom only knows how to speak a little French .
+# ::snt Tom kan bare snakke litt fransk .
+# ::snt Tom only knows how to speak a little French .
+(k / know-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (s / speak-01
+            :ARG0 p
+            :ARG3 (l / language
+                  :name (n2 / name
+                        :op1 "French"))
+            :quant (l2 / little))
+      :mod (o / only))
+
+# ::id tatoeba_nor.10 ::eng Tom and I have played poker together many times .
+# ::snt Tom og jeg har spilt poker sammen mange ganger .
+# ::snt Tom and I have played poker together many times .
+(p / play-01
+      :ARG0 (a / and
+            :op1 (p2 / person
+                  :name (n / name
+                        :op1 "Tom"))
+            :op2 (ii / i))
+      :ARG1 (p3 / poker)
+      :mod (t / together)
+      :frequency (m / many))
+
+# ::id tatoeba_nor.11 ::eng Tom said it would be OK if I did n't attend this afternoon 's meeting .
+# ::snt Tom sa at det er greit at jeg ikke deltar på møtet i kveld .
+# ::snt Tom said it would be OK if I did n't attend this afternoon 's meeting .
+(s / say-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (o / okay-04
+            :ARG1 (a / attend-01
+                  :polarity -
+                  :ARG0 (ii / i)
+                  :ARG1 (m / meet-03
+                        :time (d / date-entity
+                              :dayperiod (a2 / afternoon)
+                              :mod (t / today))))))
+
+# ::id tatoeba_nor.12 ::eng There are a lot of places to see around here .
+# ::snt Det er mange steder å se her i området .
+# ::snt There are a lot of places to see around here .
+(p / place
+      :quant (l / lot)
+      :ARG1-of (s / see-01
+            :location (a / around
+                  :op1 (h / here))))
+
+# ::id tatoeba_nor.13 ::eng When you expect to get something for nothing , the only person you 're fooling is yourself .
+# ::snt Når du forventer å få noe for intet , lurer du kun deg selv .
+# ::snt When you expect to get something for nothing , the only person you 're fooling is yourself .
+(f / fool-01
+      :ARG0 (y / you)
+      :ARG1 y
+      :mod (o / only)
+      :time (e / expect-01
+            :ARG0 y
+            :ARG1 (g / get-01
+                  :ARG0 y
+                  :ARG1 (s / something)
+                  :ARG3 (n / nothing))))
+
+# ::id tatoeba_nor.14 ::eng I do n't want to do it because it 's dangerous and it 's stupid .
+# ::snt Jeg har ikke lyst til å gjøre det fordi det er farlig og idiotisk .
+# ::snt I do n't want to do it because it 's dangerous and it 's stupid .
+(w / want-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (d / do-02
+            :ARG0 ii
+            :ARG1 (ii2 / it))
+      :ARG1-of (c / cause-01
+            :ARG0 (a / and
+                  :op1 (e / endanger-01
+                        :ARG0 ii2)
+                  :op2 (s / stupid
+                        :domain ii2))))
+
+# ::id tatoeba_nor.15 ::eng Last night someone broke into the small shop near my house .
+# ::snt I går natt brøt noen seg inn i den lille butikken nær huset mitt .
+# ::snt Last night someone broke into the small shop near my house .
+(b / break-02
+      :ARG0 (s / someone)
+      :ARG1 (s2 / shop
+            :mod (s3 / small)
+            :ARG1-of (n / near-02
+                  :ARG2 (h / house
+                        :poss (ii / i))))
+      :time (d / date-entity
+            :dayperiod (n2 / night)
+            :mod (y / yesterday)))
+
+# ::id tatoeba_nor.16 ::eng Tom had to explain the joke to Mary .
+# ::snt Tom måtte forklare vitsen til Mary .
+# ::snt Tom had to explain the joke to Mary .
+(o / obligate-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG2 (e / explain-01
+            :ARG0 p
+            :ARG1 (j / joke-01)
+            :ARG2 (p2 / person
+                  :name (n2 / name
+                        :op1 "Mary"))))
+
+# ::id tatoeba_nor.17 ::eng We 've had a lot of rain this month .
+# ::snt Vi har hatt mye regn denne måneden .
+# ::snt We 've had a lot of rain this month .
+(r / rain-01
+      :quant (l / lot)
+      :time (m / month
+            :mod (t / this)))
+
+# ::id tatoeba_nor.18 ::eng It seems that Tom and Mary both like classical music .
+# ::snt Det ser ut som både Tom og Mary liker klassisk musikk .
+# ::snt It seems that Tom and Mary both like classical music .
+(s / seem-01
+      :ARG1 (l / like-01
+            :ARG0 (a / and
+                  :op1 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :op2 (p2 / person
+                        :name (n2 / name
+                              :op1 "Mary"))
+                  :mod (b / both))
+            :ARG1 (m / music
+                  :mod (c / classics))))
+
+# ::id tatoeba_nor.19 ::eng Tom 's operation was going to cost a small fortune .
+# ::snt Toms operasjon ville kostet en halv formue .
+# ::snt Tom 's operation was going to cost a small fortune .
+(c / cost-01
+      :ARG1 (o / operate-01
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Tom")))
+      :ARG2 (m / monetary-quantity
+            :quant 1
+            :unit (f / fortune
+                  :mod (s / small))))
+
+# ::id tatoeba_nor.20 ::eng Mary is n't really sick. She 's only pretending to be .
+# ::snt Maria er ikke virkelig syk , hun bare later som .
+# ::snt Mary is n't really sick. She 's only pretending to be .
+(m / multi-sentence
+      :snt1 (s / sick-05
+            :polarity -
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Mary"))
+            :degree (r / really))
+      :snt2 (p2 / pretend-01
+            :ARG0 (s2 / she)
+            :ARG1 s
+            :mod (o / only)))
+

@@ -1,0 +1,43 @@
+{   "gen_args" :
+    {
+        "model_name_or_path"            : "amrlib/data/model_gtos",
+        "corpus_dir"                    : "amrlib/data/nor1000_generate_data",
+        "train_fn"                      : "train.txt",
+        "eval_fn"                       : "dev.txt",
+        "eval_use_tense"                : false,
+        "custom_save_checkpoint"        : false,
+        "save_tokenizer"                : false,
+        "save_at_end"                   : true,
+        "first_eval_epoch"              : 1,
+        "eval_batch_size"               : 32,
+        "max_in_len"                    : 512,
+        "max_out_len"                   : 512,
+        "max_train_graph_len"           : 512,
+        "max_train_sent_len"            : 256
+    },
+    "tokenizer_args" :
+    {
+        "model_max_length"              : 512
+    },
+    "hf_args" :
+    {
+        "output_dir"                    : "amrlib/data/nor1000_model_generate_xfm",
+        "save_strategy"                 : "epoch",
+        "evaluation_strategy"           : "epoch",
+        "resume_from_checkpoint"        : "amrlib/data/nor1000_model_generate_xfm/checkpoint-189",
+        "group_by_length"               : true,
+        "do_train"                      : true,
+        "do_eval"                       : true,
+        "fp16"                          : false,
+        "save_total_limit"              : 5,
+        "logging_steps"                 : 500,
+        "num_train_epochs"              : 16,
+        "per_device_train_batch_size"   : 16,
+        "gradient_accumulation_steps"   : 1,
+        "weight_decay"                  : 0.004,
+        "learning_rate"                 : 1e-4,
+        "max_grad_norm"                 : 1.0,
+        "warmup_steps"                  : 100,
+        "seed"                          : 0
+    }
+}

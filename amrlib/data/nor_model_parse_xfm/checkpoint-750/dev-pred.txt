@@ -1,0 +1,1154 @@
+# ::snt Tom meinte meinte sikkert ikkje det han sa .
+(t / think-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / possible-01
+            :polarity -
+            :ARG1 (d / do-02
+                  :ARG0 p
+                  :ARG1 (t2 / that))))
+
+# ::snt Tom tek eit bad minst tre gonger i veka .
+(t / tell-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t2 / thing
+            :ARG1-of (b / bad-07))
+      :ARG2 (ii / i)
+      :time (b2 / before
+            :op1 (n2 / now)
+            :quant (t3 / temporal-quantity
+                  :quant 3
+                  :unit (m / minute))))
+
+# ::snt Vanlegvis kjøper eg ikkje noko på internett .
+(p / possible-01
+      :ARG1 (d / do-02
+            :ARG0 (ii / i)
+            :ARG1 (t / that)
+            :time (d2 / day
+                  :mod (n / next)))
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+
+# ::snt Kvifor trudde du at Tom likte heavy metal ?
+(p / possible-01
+      :ARG1 (t / tell-01
+            :ARG0 (y / you)
+            :ARG1 (t2 / truth-value
+                  :polarity-of (h / have-03
+                        :ARG0 (ii / i)
+                        :ARG1 (m / metal
+                              :mod (h2 / heavy)
+                              :poss (p2 / person
+                                    :name (n / name
+                                          :op1 "Tom")))))
+            :ARG2 p2))
+
+# ::snt " Hopp over grøfta . " " Eg gjer det om du gjer det . "
+(m / multi-sentence
+      :snt1 (o / over
+            :op1 (r / roof))
+      :snt2 (s / say-01
+            :ARG0 (ii / i)
+            :ARG1 (h / have-03
+                  :ARG0 ii
+                  :ARG1 (c / car
+                        :ARG1-of (n / new-01)))))
+
+# ::snt Hugsar du korleis angriparen såg ut ?
+(l / love-01
+      :ARG0 (y / you)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 y
+                  :ARG2 (f / friend)))
+      :polarity (a / amr-unknown)
+      :time (e / ever))
+
+# ::snt Kvar gong eg ser Tom , har han på seg solbriller .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Tom")))
+      :op2 (h2 / have-03
+            :ARG0 ii
+            :ARG1 p
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (b / brother))))
+
+# ::snt Han likte ikkje å syngja , men dei tvinga han til å syngja .
+(c / contrast-01
+      :ARG1 (k / know-01
+            :ARG0 (h / he)
+            :ARG1 (t / time
+                  :polarity -
+                  :quant (m / much)))
+      :ARG2 (w / want-01
+            :ARG0 h
+            :ARG1 t))
+
+# ::snt Han høyrde på musikken med auga lukka .
+(h / hear-01
+      :ARG0 (h2 / he)
+      :ARG1 (m / music
+            :mod m
+            :name (n / name
+                  :op1 "Hindi"))
+      :time (d / date-entity
+            :month 11
+            :dayperiod (m2 / morning)))
+
+# ::snt Eg et alltid noko før eg dreg til skulen .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (d / dog
+                  :mod (a2 / all)))
+      :op2 (h2 / have-03
+            :ARG0 ii
+            :ARG1 (d2 / dog
+                  :mod a2))
+      :time (b / before
+            :op1 (n / now)
+            :duration (t / temporal-quantity
+                  :quant 1
+                  :unit (d3 / day))))
+
+# ::snt Eg har på følelsen av at du vil bli ein veldig god advokat .
+(h / have-03
+      :ARG0 (ii / i)
+      :ARG1 (r / reason
+            :ARG1-of (h2 / have-degree-91
+                  :ARG2 (g / good-02
+                        :ARG1 r)
+                  :ARG3 (m / most)
+                  :ARG5 (p / person
+                        :ARG0-of (h3 / have-org-role-91
+                              :ARG2 (g2 / god))))))
+
+# ::snt Eg slit stundom med smerte i korsryggen .
+(h / have-03
+      :ARG0 (ii / i)
+      :ARG1 (t / time
+            :time-of (w / work-01
+                  :ARG0 ii
+                  :ARG1 (c / car))))
+
+# ::snt På grensa vart eg beden om å visa pass .
+(o / obligate-01
+      :ARG1 (y / you)
+      :ARG2 (g / go-02
+            :ARG0 y
+            :ARG4 (h / home)
+            :time (p / pass-03
+                  :ARG1 (v / visa))))
+
+# ::snt Eg vil alltid hugsa første gong eg så Tom .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (k / know-01
+            :ARG0 ii
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Tom")))
+      :ARG1-of (c / cause-01
+            :ARG0 (h / have-03
+                  :ARG0 ii
+                  :ARG1 (h2 / home))))
+
+# ::snt Det kjem til å bli vanskeleg å overtala Tom til å syngja .
+(k / know-01
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (g / go-02
+                        :ARG0 (p / person
+                              :name (n / name
+                                    :op1 "Tom"))
+                        :ARG4 (c2 / country
+                              :name n
+                              :op1 "America")))))
+
+# ::snt Dopsmuglaren vart arrestert på flyplassen .
+(a / arrest-01
+      :ARG1 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (d / doctor)))
+      :location (c / car
+            :part (r / roof)))
+
+# ::snt Politiet behandla Tom som om han var ein alminneleg kriminell .
+(a / ask-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (g / government-organization
+                        :ARG0-of (g2 / govern-01))))
+      :ARG1 (t / thing
+            :ARG1-of (r / rent-01)
+            :mod (a2 / all)
+            :ARG1-of (n / new-01))
+      :ARG2 (p2 / person
+            :name (n2 / name
+                  :op1 "Tom")))
+
+# ::snt Det var få elevar igjen i klasserommet .
+(p / possible-01
+      :ARG1 (s / see-01
+            :ARG0 (ii / i)
+            :ARG1 (t / thing
+                  :ARG0-of (p2 / photograph-01))
+            :location (k / klasserommet)))
+
+# ::snt Dette er den beste måten å løysa problemet på .
+(h / have-degree-91
+      :ARG1 (p / problem
+            :poss (ii / i))
+      :ARG2 (g / good-02
+            :ARG1 p)
+      :ARG3 (m / most)
+      :ARG5 (t / time
+            :ARG1-of (h2 / have-03
+                  :ARG0 ii)))
+
+# ::snt Tom kjøpte den bilen fordi kona hans likte henne .
+(k / know-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t / thing
+            :ARG1-of (b / buy-01
+                  :ARG0 p))
+      :ARG1-of (c / cause-01
+            :ARG0 (w / want-01
+                  :ARG0 p
+                  :ARG1 t)))
+
+# ::snt Tom har allereie gitt Maria det ho spurde etter .
+(s / say-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (w / want-01
+            :ARG0 p
+            :ARG1 (l / leave-11
+                  :ARG0 (p2 / person
+                        :name (n2 / name
+                              :op1 "Maria"))
+                  :ARG1 (h / house
+                        :ARG1-of (h2 / have-degree-91
+                              :ARG2 (b / big)
+                              :ARG3 (m / more)))))
+      :ARG2 p2)
+
+# ::snt Tom må vera veldig glad etter å ha vunne løpet .
+(a / and
+      :op1 (g / glad-02
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Tom"))
+            :ARG1 p)
+      :op2 (w / want-01
+            :ARG0 p
+            :ARG1 (l / leave-11
+                  :ARG0 p
+                  :ARG1 (h / house
+                        :poss p))))
+
+# ::snt Tom var den einaste på båten hans då han sokk .
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (ii / idea
+            :mod (a / all)
+            :topic (t / thing
+                  :ARG1-of (e / eat-01
+                        :ARG0 p)))
+      :time (d / date-entity
+            :dayperiod (n2 / night)
+            :mod (t2 / today)))
+
+# ::snt Tom vil ikkje innrømma at han har gjort noko gale .
+(w / want-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (k / know-01
+            :ARG0 p
+            :ARG1 (t / thing
+                  :ARG1-of (b / bad-07
+                        :ARG0 p))))
+
+# ::snt Huset til Tom er på den andre sida av elva .
+(b / be-located-at-91
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG2 (r / room
+            :mod (t / this)
+            :ARG1-of (h / have-part-91
+                  :ARG2 (m / mother))))
+
+# ::snt Ville det vore greitt om eg tok ferie neste veke ?
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (k / know-01
+            :ARG0 y
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 y
+                        :ARG1-of (r / request-confirmation-91))))
+      :ARG2-of (h / have-degree-91
+            :ARG1 y
+            :ARG3 (m / more)))
+
+# ::snt Du må vera svolten etter å ha gått så langt .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (s / stay-01
+            :ARG1 ii
+            :ARG3 (h / here))
+      :condition (w / want-01
+            :ARG0 ii
+            :ARG1 s))
+
+# ::snt Kunne du ikkje ha fortalt meg om det i går ?
+(p / possible-01
+      :polarity -
+      :ARG1 (k / know-01
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (ii / i)
+                        :ARG1-of (c / cause-01
+                              :ARG0 (ii2 / it)))))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::snt Han budde i London då krigen braut ut .
+(p / possible-01
+      :ARG1 (g / go-02
+            :ARG0 (h / he)
+            :ARG4 (c / city
+                  :name (n / name
+                        :op1 "London"))
+            :time (d / date-entity
+                  :dayperiod (n2 / night)
+                  :mod (t / today))))
+
+# ::snt Han har gjort opp sin meining og nektar å endra han .
+(h / have-03
+      :ARG0 (h2 / he)
+      :ARG1 (a / and
+            :op1 (m / meander-01
+                  :ARG0 h2)
+            :op2 (w / want-01
+                  :ARG0 h2
+                  :ARG1 (b / be-located-at-91
+                        :ARG1 h2
+                        :ARG2 (h3 / here)))))
+
+# ::snt Kor lenge antek du at dei har vore der , Tom ?
+(a / ask-01
+      :ARG0 (ii / i)
+      :ARG1 (t / truth-value
+            :polarity-of (w / want-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1 (k / know-01
+                        :ARG0 p
+                        :ARG1 (t2 / thing
+                              :ARG1-of (d / do-02
+                                    :ARG0 p)))))
+      :ARG2 p)
+
+# ::snt Eg er ikkje vand til å drikka kaffi utan sukker .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (k / know-01
+            :ARG0 ii
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 ii
+                        :ARG2 (y / you))
+                  :mod (t2 / that))))
+
+# ::snt Eg må snakka med deg om noko personleg .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 (p / person
+                        :ARG1-of (c / come-01
+                              :ARG4 (c2 / country
+                                    :name (n / name
+                                          :op1 "America")))))))
+
+# ::snt Eg reiv sund alle breva du skreiv meg .
+(k / know-01
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (g / go-02
+                        :ARG0 ii
+                        :ARG4 (h / home)))))
+
+# ::snt Eg skulle ønskja at du ikkje hadde fortalt den historia til mor mi .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (r / remember-01
+                  :ARG0 (y / you)
+                  :ARG1 (e / event
+                        :mod (t / this))
+                  :time (u / until
+                        :op1 (d / die-01
+                              :ARG1 ii)))))
+
+# ::snt Eg vil rydda opp huset før foreldra mine kjem .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 ii
+                  :ARG1-of (c / cause-01
+                        :ARG0 (ii2 / it)))))
+
+# ::snt Beklagar , eg forstår nesten ikkje engelsk .
+(s / say-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (s2 / stay-01
+                  :ARG1 (y / you)
+                  :ARG3 (h / here)))
+      :ARG2 (p2 / person
+            :name (n / name
+                  :op1 "Beklagar")))
+
+# ::snt I eit demokrati har alle innbyggjarar like rettar .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :polarity -
+            :ARG1 (g / go-02
+                  :ARG0 ii
+                  :ARG4 (c / country
+                        :name (n / name
+                              :op1 "India"))
+                  :time (e / ever))))
+
+# ::snt Det er ikkje sant , same kven som seier det .
+(c / contrast-01
+      :ARG1 (k / know-01
+            :polarity -
+            :ARG0 (ii / i)
+            :ARG1 (t / thing
+                  :ARG1-of (k2 / know-01
+                        :ARG0 ii)))
+      :ARG2 (k3 / know-01
+            :polarity -
+            :ARG0 ii
+            :ARG1 t))
+
+# ::snt Det var det beste som nokon gong har skjedd meg .
+(h / have-degree-91
+      :ARG1 (ii / it)
+      :ARG2 (g / good-02
+            :ARG1 ii)
+      :ARG3 (m / most)
+      :ARG5 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 (ii2 / i)
+                  :ARG2 (y / you))))
+
+# ::snt Det er ikkje lett å skriva eit kjærleiksbrev på engelsk .
+(p / possible-01
+      :ARG1 (k / know-01
+            :ARG0 (ii / i)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 ii
+                        :ARG2 (c / car
+                              :ARG1-of (n / new-01))))))
+
+# ::snt Ein million menneske mista livet i krigen .
+(m / man
+      :quant 1000000
+      :ARG0-of (l / live-01
+            :location (t / train)))
+
+# ::snt Ta med nokre flasker vatn til møterommet .
+(d / drink-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend)))
+      :ARG1 (t / tea)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t2 / temporal-quantity
+                  :quant 1
+                  :unit (d2 / day))))
+
+# ::snt Berre tanken på slangar gjer henne bleik .
+(t / think-01
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :ARG1-of (d / drink-01
+                  :ARG0 y))
+      :time (s / slang
+            :domain t2
+            :ARG1-of (d2 / do-02
+                  :ARG0 y
+                  :ARG1-of (r / request-confirmation-91))))
+
+# ::snt Det er ikkje mange synagogar i denne byen .
+(h / have-03
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (w / word
+            :mod (m / mange))
+      :location (h2 / here)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t / temporal-quantity
+                  :quant 1
+                  :unit (w2 / week))))
+
+# ::snt Dei sat fast i heisen i fire timar .
+(s / sit-01
+      :ARG1 (h / he)
+      :ARG1-of (f / fast-02)
+      :time (t / today))
+
+# ::snt Tom spurde Mary der ho vanlegvis handla .
+(s / say-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (h / have-03
+            :ARG0 (p2 / person
+                  :name (n2 / name
+                        :op1 "Mary"))
+            :ARG1 (h2 / hand))
+      :ARG2 p2)
+
+# ::snt Tom må gjera det , anten han vil eller ikkje .
+(c / contrast-01
+      :ARG1 (p / possible-01
+            :ARG1 (g / go-02
+                  :ARG0 (p2 / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG4 (h / home)))
+      :ARG2 (p3 / possible-01
+            :polarity -
+            :ARG1 g
+            :ARG0 p2
+            :ARG4 h))
+
+# ::snt Tom skal vel ikkje eta den frosken ?
+(w / want-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (k / know-01
+            :ARG0 p
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 p
+                        :ARG1-of (r / request-confirmation-91)))))
+
+# ::snt Tom blir borte i dag på grunn av forkjøling .
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t / time
+            :time-of (f / forklift-01)))
+
+# ::snt Tom mente mente sikkert ikke det han sa .
+(t / think-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / possible-01
+            :ARG1 (k / kill-01
+                  :ARG0 p
+                  :ARG1 (y / you))))
+
+# ::snt Tom tar et bad minst tre ganger i uken .
+(a / and
+      :op1 (k / know-01
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Tom"))
+            :ARG1 (t / thing
+                  :ARG1-of (b / bad-07)))
+      :op2 (h / have-03
+            :ARG0 p
+            :ARG1 t))
+
+# ::snt Vanligvis kjøper jeg ikke noe på internett .
+(p / possible-01
+      :polarity -
+      :ARG1 (g / go-02
+            :ARG0 (ii / i)
+            :ARG4 (h / house
+                  :poss ii)))
+
+# ::snt Hvorfor trodde du at Tom likte heavy metal ?
+(r / recommend-01
+      :ARG1 (t / tell-01
+            :ARG0 (y / you)
+            :ARG1 (l / love-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1 (m / metal
+                        :mod (h / heavy)))
+            :ARG2 p)
+      :ARG2 y
+      :polarity (a / amr-unknown))
+
+# ::snt " Hopp over grøfta . " " Jeg gjør det hvis du gjør det . "
+(m / multi-sentence
+      :snt1 (o / over
+            :op1 (g / granny))
+      :snt2 (s / say-01
+            :ARG0 (ii / i)
+            :ARG1 (h / have-degree-91
+                  :ARG1 (y / you)
+                  :ARG2 (b / bad-07
+                        :ARG1 y)
+                  :ARG3 (m2 / more)
+                  :ARG4 ii)))
+
+# ::snt Husker du hvordan angriperen så ut ?
+(o / obligate-01
+      :polarity (a / amr-unknown)
+      :ARG1 (y / you)
+      :ARG2 (g / go-02
+            :ARG0 y
+            :ARG4 (c / country
+                  :name (n / name
+                        :op1 "England"))
+            :time (e / ever)))
+
+# ::snt Hver gang jeg ser Tom , har han på seg solbriller .
+(c / contrast-01
+      :ARG1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Tom")))
+      :ARG2 (h2 / have-03
+            :ARG0 ii
+            :ARG1 p
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (b / brother))))
+
+# ::snt Han likte ikke å synge , men de tvang ham til å synge .
+(a / and
+      :op1 (w / want-01
+            :ARG0 (h / he)
+            :ARG1 (h2 / hear-01
+                  :ARG0 h
+                  :ARG1 (m / music)))
+      :op2 (h3 / have-03
+            :ARG0 h
+            :ARG1 m
+            :time (e / ever)))
+
+# ::snt Han hørte på musikken med øynene lukket .
+(m / make-up-16
+      :ARG0 (h / he)
+      :ARG1 (m2 / music
+            :mod m2
+            :mod (c / country
+                  :name (n / name
+                        :op1 "America"))))
+
+# ::snt Jeg spiser alltid noe før jeg drar til skolen .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (g / go-02
+                  :ARG0 ii
+                  :ARG4 (s / shop)
+                  :time (e / ever))))
+
+# ::snt Jeg har på følelsen av at du vil bli en veldig god advokat .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (s / speak-01
+            :ARG0 ii
+            :ARG1 (t / truth-value
+                  :polarity-of (h / have-03
+                        :ARG0 ii
+                        :ARG1 (t2 / time
+                              :ARG1-of (h2 / have-quant-91
+                                    :ARG3 (e / enough)
+                                    :ARG6 (g / go-02
+                                          :ARG0 ii
+                                          :ARG4 (h3 / home))))))))
+
+# ::snt Jeg sliter noen ganger med smerte i korsryggen .
+(h / have-03
+      :ARG0 (ii / i)
+      :ARG1 (t / time
+            :ARG1-of (s / slow-05)
+            :mod (a / all))
+      :time (n / now))
+
+# ::snt På grensen ble jeg bedt om å vise pass .
+(b / bed-down-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Jesus"))
+      :ARG1 p
+      :time (b2 / before
+            :op1 (p2 / pass-03
+                  :ARG1 p)))
+
+# ::snt Jeg vil alltid huske første gang jeg så Tom .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (k / know-01
+            :ARG0 ii
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Tom")))
+      :degree (a / all))
+
+# ::snt Det kommer til å bli vanskelig å overtale Tom til å synge .
+(w / want-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (b / brother)))
+      :ARG1 (t / tell-01
+            :ARG0 ii
+            :ARG1 (t2 / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (p2 / person
+                              :name (n / name
+                                    :op1 "Tom"))))
+            :ARG2 p2))
+
+# ::snt Dopsmugleren ble arrestert på flyplassen .
+(a / arrest-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (d / dad)))
+      :ARG1 p
+      :mod (f / fly-01))
+
+# ::snt Politiet behandlet Tom som om han var en alminnelig kriminell .
+(a / ask-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (g / government-organization
+                        :ARG0-of (g2 / govern-01))
+                  :ARG2 (m / member)))
+      :ARG1 (t / truth-value
+            :polarity-of (h2 / have-03
+                  :ARG0 (p2 / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1 (m2 / money
+                        :ARG1-of (b / black-05))))
+      :ARG2 p2)
+
+# ::snt Det var få elever igjen i klasserommet .
+(c / come-01
+      :ARG1 (t / they)
+      :ARG4 (ii / i)
+      :time (d / date-entity
+            :dayperiod (m / morning)
+            :mod (t2 / today)))
+
+# ::snt Dette er den beste måten å løse problemet på .
+(h / have-degree-91
+      :ARG1 (p / problem)
+      :ARG2 (g / good-02
+            :ARG1 p)
+      :ARG3 (m / most)
+      :ARG5 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 (y / you))))
+
+# ::snt Tom kjøpte den bilen fordi kona hans likte den .
+(k / know-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t / thing
+            :ARG1-of (b / buy-01
+                  :ARG0 p))
+      :ARG1-of (c / cause-01
+            :ARG0 (w / want-01
+                  :ARG0 p
+                  :ARG1 t)))
+
+# ::snt Tom har allerede gitt Maria det hun spurte etter .
+(t / tell-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t2 / thing
+            :ARG1-of (s / spur-01
+                  :ARG2 (y / you))
+            :ARG1-of (h / have-quant-91
+                  :ARG3 (e / equal)
+                  :ARG4 (p2 / person
+                        :name (n2 / name
+                              :op1 "Maria"))))
+      :ARG2 p2)
+
+# ::snt Tom må være veldig glad etter å ha vunnet løpet .
+(h / have-degree-91
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG2 (g / glad-02
+            :ARG1 p)
+      :ARG3 (m / most)
+      :ARG5 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 p
+                  :ARG1-of (l / long-03))))
+
+# ::snt Tom var den eneste på båten hans da den sank .
+(a / and
+      :op1 (g / go-02
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Tom"))
+            :ARG4 (h / house
+                  :poss p))
+      :op2 (s / sink-01
+            :ARG1 p))
+
+# ::snt Tom vil ikke innrømme at han har gjort noe galt .
+(k / know-01
+      :polarity -
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t / thing
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (b / bad-07
+                        :ARG1 t)
+                  :ARG3 (m / most))))
+
+# ::snt Huset til Tom er på den andre siden av elven .
+(h / have-03
+      :ARG0 (ii / i)
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :time (b / before
+            :op1 (n2 / now)
+            :duration (t / temporal-quantity
+                  :quant 1
+                  :unit (y / year))))
+
+# ::snt Ville det vært greit om jeg tok ferie neste uke ?
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (k / know-01
+            :ARG0 y
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 y
+                        :ARG1-of w
+                        :ARG0 y)))
+      :polarity (a / amr-unknown))
+
+# ::snt Du må være sulten etter å ha gått så langt .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (g / go-02
+            :ARG0 ii
+            :ARG4 (h / home)
+            :time (s / soon
+                  :ARG2-of (h2 / have-degree-91
+                        :ARG1 ii
+                        :ARG3 (m / more)))))
+
+# ::snt Kunne du ikke ha fortalt meg om det i går ?
+(p / possible-01
+      :polarity -
+      :ARG1 (k / know-01
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (ii / i)
+                        :ARG1-of (c / cause-01
+                              :ARG0 (ii2 / it)))))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::snt Han bodde i London da krigen brøt ut .
+(h / have-03
+      :ARG0 (h2 / he)
+      :ARG1 (t / time
+            :ARG1-of (l / long-03)
+            :quant (l2 / lot))
+      :location (c / city
+            :name (n / name
+                  :op1 "London")))
+
+# ::snt Han har gjort opp sin mening og nekter å endre den .
+(h / have-03
+      :ARG0 (h2 / he)
+      :ARG1 (a / and
+            :op1 (m / man
+                  :ARG1-of (h3 / have-degree-91
+                        :ARG2 (o / old)
+                        :ARG3 (m2 / more)
+                        :ARG4 (p / person
+                              :ARG0-of (h4 / have-rel-role-91
+                                    :ARG1 h2
+                                    :ARG2 (m3 / mother)))))
+            :op2 (w / want-01
+                  :ARG0 h2
+                  :ARG1 (b / be-located-at-91
+                        :ARG1 h2
+                        :ARG2 (h5 / here)))))
+
+# ::snt Hvor lenge antar du at de har vært der , Tom ?
+(a / ask-01
+      :ARG0 (ii / i)
+      :ARG1 (t / truth-value
+            :polarity-of (w / want-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1 (k / know-01
+                        :ARG0 p
+                        :ARG1 (t2 / thing
+                              :ARG1-of (d / do-02
+                                    :ARG0 p)))))
+      :ARG2 p)
+
+# ::snt Jeg er ikke vant til å drikke kaffe uten sukker .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (d / do-02
+                  :ARG0 ii
+                  :ARG1 (t / that)
+                  :time (e / ever)
+                  :location (t2 / table
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (b / big)
+                              :ARG3 (m / more))))))
+
+# ::snt Jeg må snakke med deg om noe personlig .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (t / talk-01
+            :ARG0 ii
+            :ARG2 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 ii
+                        :ARG2 (f / friend)))))
+
+# ::snt Jeg rev i stykker alle brevene du skrev meg .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (t / tell-01
+            :ARG0 ii
+            :ARG1 (t2 / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (y / you)
+                        :ARG1-of (r / request-confirmation-91
+                              :ARG2 ii)))
+            :ARG2 y))
+
+# ::snt Jeg skulle ønske at du ikke hadde fortalt den historien til moren min .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (k / keep-02
+                  :ARG0 (y / you)
+                  :ARG1 (h / history
+                        :mod (t / this))
+                  :duration (t2 / temporal-quantity
+                        :quant 1
+                        :unit (m / minute)))))
+
+# ::snt Jeg vil rydde opp huset før foreldrene mine kommer .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (k / know-01
+            :ARG0 ii
+            :ARG1 (t / thing
+                  :ARG0-of (c / cause-01
+                        :ARG1 (g / go-02
+                              :ARG0 ii
+                              :ARG4 (h / home))))))
+
+# ::snt Beklager , jeg forstår nesten ikke engelsk .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (s / stay-01
+                  :ARG1 ii
+                  :ARG3 (h / here))))
+
+# ::snt I et demokrati har alle innbyggere like rettigheter .
+(r / resemble-01
+      :ARG1 (a / and
+            :op1 (ii / i)
+            :op2 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 ii
+                        :ARG2 (d / daughter))))
+      :ARG2 p
+      :ARG0-of h
+      :ARG1 ii
+      :ARG2 (f / friend))
+
+# ::snt Det er ikke sant , uansett hvem som sier det .
+(a / and
+      :op1 (k / know-01
+            :polarity -
+            :ARG0 (ii / i)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (y / you))))
+      :op2 (h / have-degree-91
+            :ARG1 t
+            :ARG2 (b / bad-07
+                  :ARG1 t)
+            :ARG3 (m / more)
+            :ARG4 y))
+
+# ::snt Det var det beste som noen gang har skjedd meg .
+(h / have-degree-91
+      :ARG1 (ii / it)
+      :ARG2 (g / good-02
+            :ARG1 ii)
+      :ARG3 (m / most)
+      :ARG5 (g2 / gang
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii2 / i)
+                  :ARG2 (f / friend))))
+
+# ::snt Det er ikke lett å skrive et kjærlighetsbrev på engelsk .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (l / leave-15
+            :ARG0 ii
+            :ARG1 (t / thing
+                  :ARG1-of (w / write-01
+                        :ARG0 ii)
+                  :mod (t2 / this))
+            :ARG2 (b / book
+                  :ARG1-of (r / read-01
+                        :ARG0 ii))))
+
+# ::snt En million mennesker mistet livet i krigen .
+(l / live-01
+      :ARG0 (m / man
+            :quant (m2 / more-than
+                  :op1 1000000))
+      :location (t / train))
+
+# ::snt Ta med noen flasker vann til møterommet .
+(d / drink-01
+      :ARG0 (y / you)
+      :ARG1 (t / tea
+            :quant (v / volume-quantity
+                  :quant 1
+                  :unit (c / cup)))
+      :time (d2 / date-entity
+            :dayperiod (m / morning)))
+
+# ::snt Bare tanken på slanger gjør henne blek .
+(h / have-03
+      :ARG0 (y / you)
+      :ARG1 (c / car
+            :ARG1-of (w / wash-01
+                  :ARG0 y))
+      :time (b / before
+            :op1 (g / go-02
+                  :ARG0 y
+                  :ARG4 (h2 / home))))
+
+# ::snt Det er ikke mange synagoger i denne byen .
+(h / have-03
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 (c / church)
+                  :ARG2 (m / member)))
+      :location (h3 / here))
+
+# ::snt De satt fast i heisen i fire timer .
+(f / fast-02
+      :ARG1 (h / he)
+      :ARG2 (t / time
+            :mod (f2 / fire)))
+
+# ::snt Tom spurte Mary hvor hun vanligvis handlet .
+(s / spur-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / person
+            :name (n2 / name
+                  :op1 "Mary"))
+      :ARG2 (h / hand
+            :part-of (c / car)))
+
+# ::snt Tom må gjøre det , enten han vil eller ikke .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Tom"))
+            :ARG1 (c / car
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (b / big)
+                        :ARG3 (m / more)
+                        :ARG4 c)))
+      :op2 (h3 / have-03
+            :ARG0 p
+            :ARG1 c))
+
+# ::snt Tom skal vel ikke spise den frosken ?
+(t / think-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / possible-01
+            :ARG1 (w / wear-01
+                  :ARG0 p
+                  :ARG1 (s / suit
+                        :ARG1-of (n2 / new-01))))
+      :polarity (a / amr-unknown))
+
+# ::snt Tom blir borte i dag på grunn av forkjølelse .
+(h / have-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t / time
+            :time-of (g / go-02
+                  :ARG0 p
+                  :ARG4 (h2 / home))))
+

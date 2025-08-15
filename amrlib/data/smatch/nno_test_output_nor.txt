@@ -1,0 +1,623 @@
+# ::id tatoeba_nor.1 ::eng Me mistenkte at kasseraren hadde stole pengane .
+# ::snt Me mistenkte at kasseraren hadde stole pengane .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (s / steal-01
+            :ARG0 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 ii
+                        :ARG2 (s2 / sister)))
+            :ARG1 (p2 / pengane)))
+
+# ::id tatoeba_nor.2 ::eng Me har visst om dette problemet lenge .
+# ::snt Me har visst om dette problemet lenge .
+(t / think-01
+      :ARG0 (ii / i)
+      :ARG1 (t2 / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (p / problem
+                        :poss ii))))
+
+# ::id tatoeba_nor.3 ::eng Kva liker du best , fysikk eller kjemi ?
+# ::snt Kva liker du best , fysikk eller kjemi ?
+(h / have-degree-91
+      :ARG1 (y / you)
+      :ARG2 (g / good-02
+            :ARG1 y)
+      :ARG3 (m / most)
+      :ARG5 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 y
+                  :ARG2 (f / friend)))
+      :polarity (a / amr-unknown))
+
+# ::id tatoeba_nor.4 ::eng Du kan ikkje drepa deg sjølv ved å halda pusten din .
+# ::snt Du kan ikkje drepa deg sjølv ved å halda pusten din .
+(p / possible-01
+      :polarity -
+      :ARG1 (k / know-01
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (e / eat-01
+                        :ARG0 y))))
+
+# ::id tatoeba_nor.5 ::eng Ein guide leidde dei besøkjande rundt i museet .
+# ::snt Ein guide leidde dei besøkjande rundt i museet .
+(k / know-01
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (b / be-located-at-91
+                        :ARG1 ii
+                        :ARG2 (m / muse)))))
+
+# ::id tatoeba_nor.6 ::eng Ein gammal mann kvilte seg i skuggen av treet .
+# ::snt Ein gammal mann kvilte seg i skuggen av treet .
+(h / have-03
+      :ARG0 (ii / i)
+      :ARG1 (m / man
+            :mod (b / big)
+            :mod (c / country
+                  :name (n / name
+                        :op1 "India")))
+      :time (b2 / before
+            :op1 (n2 / now)
+            :duration (t / temporal-quantity
+                  :quant 1
+                  :unit (d / day))))
+
+# ::id tatoeba_nor.7 ::eng Kunne du tilrå ein fin restaurant i nærleiken ?
+# ::snt Kunne du tilrå ein fin restaurant i nærleiken ?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (m / meet-02
+            :ARG0 (y / you)
+            :ARG1 (p2 / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 y
+                        :ARG2 (f / father)))
+            :location (r / restaurant)))
+
+# ::id tatoeba_nor.8 ::eng Han slapp så vidt unna å bli påkøyrd og drepen av ein bil .
+# ::snt Han slapp så vidt unna å bli påkøyrd og drepen av ein bil .
+(k / know-01
+      :polarity -
+      :ARG0 (h / he)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (p / possible-01
+                        :ARG1 (g / go-02
+                              :ARG0 h
+                              :ARG4 (h2 / home))))))
+
+# ::id tatoeba_nor.9 ::eng Han har ikkje komme endå . Han må ha mista bussen .
+# ::snt Han har ikkje komme endå . Han må ha mista bussen .
+(m / multi-sentence
+      :snt1 (o / obligate-01
+            :ARG1 (h / he)
+            :ARG2 (g / go-02
+                  :ARG0 h
+                  :ARG4 (h2 / home)))
+      :snt2 o
+      :ARG1 (h3 / he)
+      :ARG2 g
+      :ARG0 h3
+      :ARG4 h2)
+
+# ::id tatoeba_nor.10 ::eng Eg vart full i går kveld og gjorde noko dumt .
+# ::snt Eg vart full i går kveld og gjorde noko dumt .
+(a / and
+      :op1 (h / have-degree-91
+            :ARG1 (ii / i)
+            :ARG2 (f / full-09
+                  :ARG1 ii)
+            :ARG3 (e / equal)
+            :ARG4 (t / time
+                  :time-of (g / go-02
+                        :ARG0 ii
+                        :ARG4 (h2 / home)
+                        :op2-of a)))
+      :ARG0 ii
+      :ARG4 h2
+      :time (n / now))
+
+# ::id tatoeba_nor.11 ::eng Eg trur det er usannsynleg at Tom blir vald .
+# ::snt Eg trur det er usannsynleg at Tom blir vald .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1-of (l / long-03))))
+
+# ::id tatoeba_nor.12 ::eng Eg trur denne medisinen vil hjelpa deg mykje .
+# ::snt Eg trur denne medisinen vil hjelpa deg mykje .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (t / tell-01
+            :ARG0 ii
+            :ARG1 (t2 / thing
+                  :ARG1-of (m / mediate-01
+                        :ARG0 (y / you)))
+            :ARG2 y))
+
+# ::id tatoeba_nor.13 ::eng Eg skulle ønskja eg kunne finna ut korleis ein får dette til å verka .
+# ::snt Eg skulle ønskja eg kunne finna ut korleis ein får dette til å verka .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :polarity -
+            :ARG1 (d / do-02
+                  :ARG0 ii
+                  :ARG1 (t / that)
+                  :time (b / before
+                        :op1 (g / go-02
+                              :ARG0 ii
+                              :ARG4 (h / home))))))
+
+# ::id tatoeba_nor.14 ::eng Eg svelt heller i hel enn å stela .
+# ::snt Eg svelt heller i hel enn å stela .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (s / stay-01
+                        :ARG1 ii
+                        :ARG3 (h / home)))))
+
+# ::id tatoeba_nor.15 ::eng Eg har lært å aldri låna pengar frå venner .
+# ::snt Eg har lært å aldri låna pengar frå venner .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (c2 / come-01
+                        :ARG1 ii
+                        :ARG4 (h / home)))))
+
+# ::id tatoeba_nor.16 ::eng Mange kriminelle i Amerika er avhengige av narkotika .
+# ::snt Mange kriminelle i Amerika er avhengige av narkotika .
+(a / and
+      :op1 (c / country
+            :name (n / name
+                  :op1 "America"))
+      :op2 (c2 / country
+            :name (n2 / name
+                  :op1 "India"))
+      :op3 (c3 / country
+            :name (n3 / name
+                  :op1 "Narkotika")))
+
+# ::id tatoeba_nor.17 ::eng Ver snill og tilgi meg for at eg var så sein til å skriva dette .
+# ::snt Ver snill og tilgi meg for at eg var så sein til å skriva dette .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (p / phone
+                  :poss ii))
+      :op2 (h2 / have-03
+            :ARG0 ii
+            :ARG1 p)
+      :condition (h3 / have-03
+            :polarity -
+            :ARG0 ii
+            :ARG1 p))
+
+# ::id tatoeba_nor.18 ::eng Den nye sekretæren skriv raskare enn den førre .
+# ::snt Den nye sekretæren skriv raskare enn den førre .
+(h / have-degree-91
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sister)))
+      :ARG2 (t / tall)
+      :ARG3 (m / most)
+      :ARG5 p
+      :location (c / country
+            :name (n / name
+                  :op1 "America")))
+
+# ::id tatoeba_nor.19 ::eng Eit helikopter ventar på oss på taket .
+# ::snt Eit helikopter ventar på oss på taket .
+(v / vent-01
+      :ARG0 (h / helicopter
+            :mod (t / this))
+      :location (a / and
+            :op1 (u / up)
+            :op2 (d / down)))
+
+# ::id tatoeba_nor.20 ::eng Denne heisen går ikkje høgare enn sjette etasje .
+# ::snt Denne heisen går ikkje høgare enn sjette etasje .
+(h / have-degree-91
+      :ARG1 (h2 / he)
+      :ARG2 (b / bad-07
+            :ARG1 h2)
+      :ARG3 (m / most)
+      :ARG5 (c / country
+            :location (c2 / continent
+                  :name (n / name
+                        :op1 "Europe"))))
+
+# ::id tatoeba_nor.21 ::eng Dette er staden der hendinga fann stad .
+# ::snt Dette er staden der hendinga fann stad .
+(h / have-degree-91
+      :ARG1 (s / she)
+      :ARG2 (o / old)
+      :ARG3 (m / most)
+      :ARG5 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 s
+                  :ARG2 (g / grandfather))))
+
+# ::id tatoeba_nor.22 ::eng Tom sa ikkje kor mange gonger han hadde vore der .
+# ::snt Tom sa ikkje kor mange gonger han hadde vore der .
+(t / think-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (h / have-03
+            :ARG0 p
+            :ARG1 (m / man
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 p
+                        :ARG2 (g / grandfather)))))
+
+# ::id tatoeba_nor.23 ::eng Tom sa han ikkje visste kvifor Mary måtte gjera det .
+# ::snt Tom sa han ikkje visste kvifor Mary måtte gjera det .
+(t / think-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / possible-01
+            :polarity -
+            :ARG1 (s / see-01
+                  :ARG0 (p3 / person
+                        :name (n2 / name
+                              :op1 "Mary"))
+                  :ARG1 (t2 / thing
+                        :ARG1-of (d / do-02
+                              :ARG0 p3)))))
+
+# ::id tatoeba_nor.24 ::eng Tom tok av seg kleda sine og tok på seg pyjamasen sin .
+# ::snt Tom tok av seg kleda sine og tok på seg pyjamasen sin .
+(w / want-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (s / see-01
+            :ARG0 p
+            :ARG1 (d / dress
+                  :poss p)))
+
+# ::id tatoeba_nor.25 ::eng Tom sykkelen sin var blå før han måla den raud .
+# ::snt Tom sykkelen sin var blå før han måla den raud .
+(t / tell-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (t2 / thing
+            :ARG1-of (d / do-02
+                  :ARG0 p
+                  :ARG1-of (w / want-01
+                        :ARG0 p)))
+      :ARG2 (ii / i))
+
+# ::id tatoeba_nor.26 ::eng Me høyrer ofte om ei energikrise desse dagane .
+# ::snt Me høyrer ofte om ei energikrise desse dagane .
+(h / have-degree-91
+      :ARG1 (ii / i)
+      :ARG2 (h2 / happy-01
+            :ARG1 ii)
+      :ARG3 (m / most)
+      :ARG5 (p / person
+            :location (w / world-region
+                  :name (n / name
+                        :op1 "East"))))
+
+# ::id tatoeba_nor.27 ::eng Kva et barna dine vanlegvis til frukost ?
+# ::snt Kva et barna dine vanlegvis til frukost ?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (y / you)
+      :ARG1 (s / see-01
+            :ARG0 (a2 / and
+                  :op1 y
+                  :op2 (a3 / animal
+                        :name (n / name
+                              :op1 "Barnett")))
+            :ARG1 (t / thing
+                  :ARG1-of (s2 / smell-02
+                        :ARG0 a2))))
+
+# ::id tatoeba_nor.28 ::eng Du har ikkje peiling på kva eg snakkar om , har du ?
+# ::snt Du har ikkje peiling på kva eg snakkar om , har du ?
+(w / want-01
+      :polarity (a / amr-unknown)
+      :ARG0 (y / you)
+      :ARG1 (s / see-01
+            :ARG0 y
+            :ARG1 (t / thing
+                  :ARG1-of (p / photograph-01
+                        :ARG0 y))))
+
+# ::id tatoeba_nor.29 ::eng Du ville vorte overraska over kor mykje ein kan læra på ei veke .
+# ::snt Du ville vorte overraska over kor mykje ein kan læra på ei veke .
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (k / know-01
+            :ARG0 y
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 y
+                        :ARG1-of w
+                        :ARG0 y)))
+      :ARG1-of (c / cause-01
+            :ARG0 (a / amr-unknown)))
+
+# ::id tatoeba_nor.30 ::eng Ein som går fort kan gå seks kilometer i timen .
+# ::snt Ein som går fort kan gå seks kilometer i timen .
+(p / possible-01
+      :polarity -
+      :ARG1 (w / walk-01
+            :ARG0 (ii / i)
+            :ARG2 (d / distance-quantity
+                  :quant 1
+                  :unit (k / kilometer)))
+      :time (d2 / date-entity
+            :dayperiod (n / night)
+            :mod (t / today)))
+
+# ::id tatoeba_nor.31 ::eng Han hadde ingen andre klede enn dei han hadde på seg .
+# ::snt Han hadde ingen andre klede enn dei han hadde på seg .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (h2 / he)
+            :ARG1 (c / car
+                  :poss h2))
+      :op2 (h3 / have-03
+            :ARG0 h2
+            :ARG1 c))
+
+# ::id tatoeba_nor.32 ::eng Han har ikkje hovud til hovudrekning .
+# ::snt Han har ikkje hovud til hovudrekning .
+(w / want-01
+      :ARG0 (h / he)
+      :ARG1 (s / see-01
+            :ARG0 h
+            :ARG1 (t / thing
+                  :ARG1-of (p / photograph-01))))
+
+# ::id tatoeba_nor.33 ::eng Eg kan ikkje hugsa sist eg hadde så mykje moro .
+# ::snt Eg kan ikkje hugsa sist eg hadde så mykje moro .
+(a / and
+      :op1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (h2 / hug-01
+                  :ARG0 ii
+                  :ARG1 (y / you)))
+      :op2 (h3 / have-03
+            :polarity -
+            :ARG0 ii
+            :ARG1 h2))
+
+# ::id tatoeba_nor.34 ::eng Eg har ei kjensle av at Tom vil ringja politiet .
+# ::snt Eg har ei kjensle av at Tom vil ringja politiet .
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (t / tell-01
+            :ARG0 ii
+            :ARG1 (r / ring-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Tom"))
+                  :ARG1 (p2 / politics))
+            :ARG2 p))
+
+# ::id tatoeba_nor.35 ::eng Eg burde kanskje ikkje spørja Tom om å få det gjort for meg .
+# ::snt Eg burde kanskje ikkje spørja Tom om å få det gjort for meg .
+(o / obligate-01
+      :ARG1 (ii / i)
+      :ARG2 (t / tell-01
+            :ARG0 ii
+            :ARG1 (t2 / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (p / person
+                              :name (n / name
+                                    :op1 "Tom"))))
+            :ARG2 p))
+
+# ::id tatoeba_nor.36 ::eng Eg skulle ønskja eg kunne finna ut korleis eg vinn over systemet .
+# ::snt Eg skulle ønskja eg kunne finna ut korleis eg vinn over systemet .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (p / possible-01
+            :ARG1 (s / see-01
+                  :ARG0 ii
+                  :ARG1 (t / thing
+                        :ARG0-of (c / cause-01
+                              :ARG1 (w2 / worry-02
+                                    :ARG0 t
+                                    :ARG1 ii))))))
+
+# ::id tatoeba_nor.37 ::eng Eg er dessverre ikkje kjend med det uttrykket .
+# ::snt Eg er dessverre ikkje kjend med det uttrykket .
+(k / know-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 ii
+                  :ARG2 (ii2 / it))))
+
+# ::id tatoeba_nor.38 ::eng Jetfly flyg mykje raskare enn propellfly .
+# ::snt Jetfly flyg mykje raskare enn propellfly .
+(f / fly-01
+      :ARG0 (a / aircraft
+            :name (n / name
+                  :op1 "Jetfly"))
+      :ARG1 (a2 / aircraft
+            :ARG1-of (f2 / fly-01
+                  :ARG0 (ii / i)))
+      :ARG1-of (m / mean-01
+            :ARG2 (f3 / fly-01
+                  :ARG0 ii
+                  :ARG1 (a3 / aircraft
+                        :ARG1-of (p / propel-01)
+                        :ARG0-of p))))
+
+# ::id tatoeba_nor.39 ::eng Hovudstaden i Nederland er Amsterdam .
+# ::snt Hovudstaden i Nederland er Amsterdam .
+(c / city
+      :name (n / name
+            :op1 "Hovudstaden")
+      :location (c2 / country
+            :name (n2 / name
+                  :op1 "Nederland"))
+      :location (c3 / city
+            :name (n3 / name
+                  :op1 "Amsterdam")))
+
+# ::id tatoeba_nor.40 ::eng Rommet er ikkje lyst nok til å sy i .
+# ::snt Rommet er ikkje lyst nok til å sy i .
+(w / wish-01
+      :ARG0 (ii / i)
+      :ARG1 (k / know-01
+            :ARG0 ii
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 ii))))
+
+# ::id tatoeba_nor.41 ::eng Denne blomsteren er den vakraste av alle blomstrar .
+# ::snt Denne blomsteren er den vakraste av alle blomstrar .
+(h / have-degree-91
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend)))
+      :ARG2 (b / bad-07
+            :ARG1 p)
+      :ARG3 (m / most)
+      :ARG5 (p2 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 f)))
+
+# ::id tatoeba_nor.42 ::eng Tom vart skoten tre gonger i bakhovudet .
+# ::snt Tom vart skoten tre gonger i bakhovudet .
+(h / hope-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (s / see-01
+            :ARG0 p
+            :ARG1 (t / thing
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (b / big)
+                        :ARG3 (e / equal)
+                        :ARG4 (m / moon)))))
+
+# ::id tatoeba_nor.43 ::eng Tom skriv ned alt slik at han ikkje gløymer det .
+# ::snt Tom skriv ned alt slik at han ikkje gløymer det .
+(w / wish-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Tom"))
+      :ARG1 (p2 / possible-01
+            :ARG1 (s / see-01
+                  :ARG0 p
+                  :ARG1 (t / thing
+                        :ARG1-of (d / do-02
+                              :ARG0 p
+                              :ARG1-of (w2 / want-01
+                                    :ARG0 p))))))
+
+# ::id tatoeba_nor.44 ::eng Kva for eit språk snakkar dei i USA ?
+# ::snt Kva for eit språk snakkar dei i USA ?
+(a / ask-01
+      :ARG0 (ii / i)
+      :ARG1 (t / truth-value
+            :polarity-of (p / possible-01
+                  :ARG1 (b / believe-01
+                        :ARG0 (y / you)
+                        :ARG1 (b2 / be-located-at-91
+                              :ARG1 (ii2 / it)
+                              :ARG2 (c / country
+                                    :name (n / name
+                                          :op1 "USA"))))))
+      :ARG2 y)
+
+# ::id tatoeba_nor.45 ::eng Kvifor gjer det vondt å få sveitta i auga ?
+# ::snt Kvifor gjer det vondt å få sveitta i auga ?
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (k / know-01
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 y
+                        :time (d2 / date-entity
+                              :month 11)))))
+
+# ::id tatoeba_nor.46 ::eng Du veit ingenting om basketball , eller ?
+# ::snt Du veit ingenting om basketball , eller ?
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (p / play-01
+            :ARG0 y
+            :ARG1 (b / basketball))
+      :polarity (a / amr-unknown))
+
+# ::id tatoeba_nor.47 ::eng Du står fritt til å reisa kvar du vil .
+# ::snt Du står fritt til å reisa kvar du vil .
+(h / have-degree-91
+      :ARG1 (y / you)
+      :ARG2 (b / bad-07
+            :ARG1 y)
+      :ARG3 (m / most)
+      :ARG5 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 y
+                  :ARG2 (f / friend))))
+
+# ::id tatoeba_nor.48 ::eng Ein fugl i handa er betre enn ti på taket .
+# ::snt Ein fugl i handa er betre enn ti på taket .
+(h / have-degree-91
+      :ARG1 (ii / it)
+      :ARG2 (b / bad-07
+            :ARG1 ii)
+      :ARG3 (m / most)
+      :ARG5 (t / thing
+            :ARG1-of (s / see-01
+                  :ARG0 (ii2 / i))))
+
+# ::id tatoeba_nor.49 ::eng Kvar gong han kjem hit , bestiller han den same retten .
+# ::snt Kvar gong han kjem hit , bestiller han den same retten .
+(c / contrast-01
+      :ARG1 (w / want-01
+            :ARG0 (ii / i)
+            :ARG1 (h / hit-01
+                  :ARG0 ii))
+      :ARG2 (w2 / want-01
+            :ARG0 ii
+            :ARG1 (h2 / hit-01
+                  :ARG0 ii
+                  :ARG1-of (s / same-01
+                        :ARG2 (h3 / hit-01
+                              :ARG0 ii)))))
+
+# ::id tatoeba_nor.50 ::eng Han foreslo at me skulle utsetja avreisa .
+# ::snt Han foreslo at me skulle utsetja avreisa .
+(k / know-01
+      :ARG0 (h / he)
+      :ARG1 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 h
+                  :ARG1-of (t2 / tell-01
+                        :ARG0 h
+                        :ARG2 (ii / i)))))
+

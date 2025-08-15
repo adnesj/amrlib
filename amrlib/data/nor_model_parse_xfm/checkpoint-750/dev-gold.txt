@@ -1,0 +1,1136 @@
+# ::id tatoeba_nor.401
+# ::snt Tom meinte meinte sikkert ikkje det han sa .
+(l / likely-01
+       :ARG1 (m / mean-01
+             :polarity -
+             :ARG0 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG1 (t / thing
+                   :ARG1-of (s / say-01
+                         :ARG0 p))
+             :ARG1-of (r / real-04)))
+
+# ::id tatoeba_nor.402
+# ::snt Tom tek eit bad minst tre gonger i veka .
+(b / bathe-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :frequency (r / rate-entity-91
+             :ARG1 (a / at-least
+                   :op1 3)
+             :ARG2 (t / temporal-quantity
+                   :quant 1
+                   :unit (w / week))))
+
+# ::id tatoeba_nor.403
+# ::snt Vanlegvis kjøper eg ikkje noko på internett .
+(b / buy-01
+       :polarity -
+       :ARG0 (ii / i)
+       :ARG1 (a / anything)
+       :ARG2 (ii2 / internet)
+       :mod (u / usual))
+
+# ::id tatoeba_nor.404
+# ::snt Kvifor trudde du at Tom likte heavy metal ?
+(c / cause-01
+       :ARG0 (a / amr-unknown)
+       :ARG1 (t / think-01
+             :ARG0 (y / you)
+             :ARG1 (l / like-01
+                   :ARG0 (p / person
+                         :name (n / name
+                               :op1 "Tom"))
+                   :ARG1 (m / metal
+                         :mod (h / heavy)))))
+
+# ::id tatoeba_nor.405
+# ::snt " Hopp over grøfta . " " Eg gjer det om du gjer det . "
+(m / multi-sentence
+       :snt1 (j / jump-03
+             :mode imperative
+             :ARG0 (y / you)
+             :path (a / across
+                   :op1 (d / ditch)))
+       :snt2 (d2 / do-02
+             :ARG0 (ii / i)
+             :condition (d3 / do-02
+                   :ARG0 (y2 / you))))
+
+# ::id tatoeba_nor.406
+# ::snt Hugsar du korleis angriparen såg ut ?
+(r / remember-01
+       :ARG0 (y / you)
+       :ARG1 (t / thing
+             :ARG2-of (l / look-02
+                   :ARG0 (p / person
+                         :ARG0-of (a / attack-01))))
+       :polarity (a2 / amr-unknown))
+
+# ::id tatoeba_nor.407
+# ::snt Kvar gong eg ser Tom , har han på seg solbriller .
+(w / wear-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (s / sunglasses)
+       :frequency (r / rate-entity-91
+             :ARG4 (s2 / see-01
+                   :ARG0 (ii / i)
+                   :ARG1 p)))
+
+# ::id tatoeba_nor.408
+# ::snt Han likte ikkje å syngja , men dei tvinga han til å syngja .
+(c / contrast-01
+       :ARG1 (d / dislike-01
+             :ARG0 (h / he)
+             :ARG1 (s / sing-01
+                   :ARG0 h))
+       :ARG2 (m / make-02
+             :ARG0 (t / they)
+             :ARG1 s))
+
+# ::id tatoeba_nor.409
+# ::snt Han høyrde på musikken med auga lukka .
+(l / listen-01
+       :ARG0 (h / he
+             :part (e / eye))
+       :ARG1 (m / music)
+       :manner (c / close-01
+             :ARG0 h
+             :ARG1 e))
+
+# ::id tatoeba_nor.410
+# ::snt Eg et alltid noko før eg dreg til skulen .
+(e / eat-01
+       :ARG0 (ii / i)
+       :ARG1 (s / something)
+       :time (b / before
+             :op1 (g / go-02
+                   :ARG0 ii
+                   :ARG4 (s2 / school)))
+       :time (a / always))
+
+# ::id tatoeba_nor.411
+# ::snt Eg har på følelsen av at du vil bli ein veldig god advokat .
+(f / feel-01
+       :ARG0 (ii / i)
+       :ARG1 (l / lawyer
+             :ARG1-of (g / good-03
+                   :degree (v / very))
+             :domain (y / you)))
+
+# ::id tatoeba_nor.412
+# ::snt Eg slit stundom med smerte i korsryggen .
+(s / suffer-01
+       :ARG0 (ii / i
+             :part (b / back
+                   :ARG1-of (l / low-04
+                         :ARG2-of (h / have-degree-91
+                               :ARG1 b
+                               :ARG3 (m / more)))))
+       :ARG1 (p / pain-01
+             :ARG1 b)
+       :frequency (s2 / sometimes))
+
+# ::id tatoeba_nor.413
+# ::snt På grensa vart eg beden om å visa pass .
+(a / ask-02
+       :ARG1 (s / show-01
+             :ARG0 (ii / i)
+             :ARG1 (p / passport
+                   :poss ii)
+             :location (b / border))
+       :ARG2 ii)
+
+# ::id tatoeba_nor.414
+# ::snt Eg vil alltid hugsa første gong eg så Tom .
+(r / remember-01
+       :ARG0 (ii / i)
+       :ARG1 (s / see-01
+             :ARG0 ii
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ord (o / ordinal-entity
+                   :value 1))
+       :time (a / always))
+
+# ::id tatoeba_nor.415
+# ::snt Det kjem til å bli vanskeleg å overtala Tom til å syngja .
+(h / hard-02
+       :ARG1 (c / convince-01
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG2 (s / sing-01
+                   :ARG0 p)))
+
+# ::id tatoeba_nor.416
+# ::snt Dopsmuglaren vart arrestert på flyplassen .
+(a / arrest-01
+       :ARG1 (p / person
+             :ARG0-of (s / smuggle-01
+                   :ARG1 (d / drug)))
+       :location (a2 / airport))
+
+# ::id tatoeba_nor.417
+# ::snt Politiet behandla Tom som om han var ein alminneleg kriminell .
+(t / treat-01
+       :ARG0 (p / police)
+       :ARG1 (p2 / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG2 (p3 / person
+             :ARG2-of (c / criminal-03
+                   :mod (c2 / common))))
+
+# ::id tatoeba_nor.418
+# ::snt Det var få elevar igjen i klasserommet .
+(l / leave-15
+       :ARG0 (p / person
+             :ARG0-of (s / study-01)
+             :quant (f / few))
+       :location (c / classroom))
+
+# ::id tatoeba_nor.419
+# ::snt Dette er den beste måten å løysa problemet på .
+(m / method
+       :domain (t / this)
+       :ARG1-of (h / have-degree-91
+             :ARG2 (g / good-02
+                   :ARG1 m)
+             :ARG3 (m2 / most))
+       :ARG2-of (s / solve-01
+             :ARG1 (p / problem
+                   :mod (t2 / that))))
+
+# ::id tatoeba_nor.420
+# ::snt Tom kjøpte den bilen fordi kona hans likte henne .
+(b / buy-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (c / car
+             :mod (t / that))
+       :ARG1-of (c2 / cause-01
+             :ARG0 (l / like-01
+                   :ARG0 (p2 / person
+                         :ARG0-of (h / have-rel-role-91
+                               :ARG1 p
+                               :ARG2 (w / wife)))
+                   :ARG1 c)))
+
+# ::id tatoeba_nor.421
+# ::snt Tom har allereie gitt Maria det ho spurde etter .
+(g / give-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (t / thing
+             :ARG1-of (a / ask-02
+                   :ARG0 (p2 / person
+                         :name (n2 / name
+                               :op1 "Mary"))))
+       :ARG2 p2
+       :time (a2 / already))
+
+# ::id tatoeba_nor.422
+# ::snt Tom må vera veldig glad etter å ha vunne løpet .
+(ii / infer-01
+       :ARG1 (h / happy-01
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :degree (v / very)
+             :time (a / after
+                   :op1 (w / win-01
+                         :ARG0 p
+                         :ARG2 (r / race-02)))))
+
+# ::id tatoeba_nor.423
+# ::snt Tom var den einaste på båten hans då han sokk .
+(p / person
+       :name (n / name
+             :op1 "Tom")
+       :mod (o / only)
+       :location (b / boat)
+       :poss-of b
+       :time (s / sink-01
+             :ARG1 b))
+
+# ::id tatoeba_nor.424
+# ::snt Tom vil ikkje innrømma at han har gjort noko gale .
+(a / admit-01
+       :polarity -
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (d / do-02
+             :ARG0 p
+             :ARG1 (a2 / anything
+                   :ARG1-of (w / wrong-02))))
+
+# ::id tatoeba_nor.425
+# ::snt Huset til Tom er på den andre sida av elva .
+(h / house
+       :poss (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :location (s / side
+             :mod (o / other)
+             :mod (r / river)))
+
+# ::id tatoeba_nor.426
+# ::snt Ville det vore greitt om eg tok ferie neste veke ?
+(o / okay-04
+       :polarity (a / amr-unknown)
+       :ARG1 (v / vacation-01
+             :ARG0 (ii / i)
+             :time (w / week
+                   :mod (n / next))))
+
+# ::id tatoeba_nor.427
+# ::snt Du må vera svolten etter å ha gått så langt .
+(ii / infer-01
+       :ARG1 (s / starve-01
+             :ARG1 (y / you)
+             :time (n / now)
+             :time (a / after
+                   :op1 (w / walk-01
+                         :ARG0 y
+                         :ARG1-of (l / long-03)))))
+
+# ::id tatoeba_nor.428
+# ::snt Kunne du ikkje ha fortalt meg om det i går ?
+(p / possible-01
+       :polarity -
+       :ARG1 (t / tell-01
+             :ARG0 (y / you)
+             :ARG1 (t2 / that)
+             :ARG2 (ii / i)
+             :time (y2 / yesterday))
+       :ARG1-of (r / request-confirmation-91))
+
+# ::id tatoeba_nor.429
+# ::snt Han budde i London då krigen braut ut .
+(l / live-01
+       :ARG0 (h / he)
+       :location (c / city
+             :name (n / name
+                   :op1 "London"))
+       :time (b / break-13
+             :ARG1 (w / war)))
+
+# ::id tatoeba_nor.430
+# ::snt Han har gjort opp sin meining og nektar å endra han .
+(a / and
+       :op1 (m / make-up-mind-12
+             :ARG0 (h / he))
+       :op2 (r / refuse-01
+             :ARG0 h
+             :ARG1 (c / change-01
+                   :ARG0 h
+                   :ARG1 (m2 / make-up-12))))
+
+# ::id tatoeba_nor.431
+# ::snt Kor lenge antek du at dei har vore der , Tom ?
+(a / ask-01
+       :ARG0 (ii / i)
+       :ARG1 (s / say-01
+             :ARG0 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG1 (b / be-located-at-91
+                   :ARG1 (t / they)
+                   :ARG2 (t2 / there)
+                   :duration (a2 / amr-unknown)))
+       :ARG2 p)
+
+# ::id tatoeba_nor.432
+# ::snt Eg er ikkje vand til å drikka kaffi utan sukker .
+(u / use-02
+       :polarity -
+       :ARG0 (ii / i)
+       :ARG1 (d / drink-01
+             :ARG0 ii
+             :ARG1 (c / coffee)
+             :manner (s / sugar
+                   :polarity -)))
+
+# ::id tatoeba_nor.433
+# ::snt Eg må snakka med deg om noko personleg .
+(n / need-01
+       :ARG0 (ii / i)
+       :ARG1 (t / talk-01
+             :ARG0 ii
+             :ARG1 (s / something
+                   :ARG1-of (p / personal-02
+                         :ARG2 ii))
+             :ARG2 (y / you)))
+
+# ::id tatoeba_nor.434
+# ::snt Eg reiv sund alle breva du skreiv meg .
+(t / tear-up-04
+       :ARG0 (ii / i)
+       :ARG1 (l / letter
+             :mod (a / all)
+             :ARG1-of (w / write-01
+                   :ARG0 (y / you)
+                   :ARG2 ii)))
+
+# ::id tatoeba_nor.435
+# ::snt Eg skulle ønskja at du ikkje hadde fortalt den historia til mor mi .
+(w / wish-01
+       :ARG0 (ii / i)
+       :ARG1 (t / tell-01
+             :polarity -
+             :ARG0 (y / you)
+             :ARG1 (s / story
+                   :mod (t2 / that))
+             :ARG2 (p / person
+                   :ARG0-of (h / have-rel-role-91
+                         :ARG1 ii
+                         :ARG2 (m / mother)))))
+
+# ::id tatoeba_nor.436
+# ::snt Eg vil rydda opp huset før foreldra mine kjem .
+(c / clean-up-02
+       :ARG0 (ii / i)
+       :ARG1 (h / house)
+       :time (b / before
+             :op1 (c2 / come-01
+                   :ARG1 (p / person
+                         :ARG0-of (h2 / have-rel-role-91
+                               :ARG1 ii
+                               :ARG2 (p2 / parent))))))
+
+# ::id tatoeba_nor.437
+# ::snt Beklagar , eg forstår nesten ikkje engelsk .
+(c / contrast-01
+       :ARG1 (s / sorry-01
+             :ARG1 (ii / i))
+       :ARG2 (u / understand-01
+             :polarity -
+             :ARG0 ii
+             :ARG1 (l / language
+                   :name (n / name
+                         :op1 "English"))
+             :degree (w / well)))
+
+# ::id tatoeba_nor.438
+# ::snt I eit demokrati har alle innbyggjarar like rettar .
+(r / right-05
+       :ARG1 (c / citizen
+             :mod (a / all))
+       :ARG1-of (e / equal-01)
+       :location (d / democracy))
+
+# ::id tatoeba_nor.439
+# ::snt Det er ikkje sant , same kven som seier det .
+(a / and
+       :op1 (m / matter-01
+             :polarity -
+             :ARG1 (p / person
+                   :ARG0-of (s / say-01
+                         :ARG1 (t / that))))
+       :op2 (t2 / true-01
+             :polarity -
+             :ARG1 t))
+
+# ::id tatoeba_nor.440
+# ::snt Det var det beste som nokon gong har skjedd meg .
+(h / have-degree-91
+       :ARG1 (t / thing
+             :domain (ii / it)
+             :time (e / ever)
+             :beneficiary (ii2 / i))
+       :ARG2 (g / good-02
+             :ARG1 t)
+       :ARG3 (m / most))
+
+# ::id tatoeba_nor.441
+# ::snt Det er ikkje lett å skriva eit kjærleiksbrev på engelsk .
+(e / easy-05
+       :polarity -
+       :ARG1 (w / write-01
+             :ARG1 (l / letter
+                   :mod (l2 / love-01)
+                   :medium (l3 / language
+                         :name (n / name
+                               :op1 "English")))))
+
+# ::id tatoeba_nor.442
+# ::snt Ein million menneske mista livet i krigen .
+(l / lose-02
+       :ARG0 (p / person
+             :quant 1000000)
+       :ARG1 (l2 / life
+             :poss p)
+       :ARG2 (w / war))
+
+# ::id tatoeba_nor.443
+# ::snt Ta med nokre flasker vatn til møterommet .
+(t / take-01
+       :mode imperative
+       :ARG0 (y / you)
+       :ARG1 (w / water
+             :quant (v / volume-quantity
+                   :quant 1
+                   :unit (b / bottle)))
+       :ARG3 (r / room
+             :location-of (m / meet-03)))
+
+# ::id tatoeba_nor.444
+# ::snt Berre tanken på slangar gjer henne bleik .
+(m / make-02
+       :ARG0 (t / think-01
+             :ARG0 (s / she)
+             :ARG1 (s2 / snake)
+             :degree (v / very))
+       :ARG1 (t2 / turn-02
+             :ARG1 s
+             :ARG2 (p / pale-03
+                   :ARG1 s)))
+
+# ::id tatoeba_nor.445
+# ::snt Det er ikkje mange synagogar i denne byen .
+(s / synagogue
+       :quant (m / many
+             :polarity -
+             :degree (t / that))
+       :location (c / city
+             :mod (t2 / this)))
+
+# ::id tatoeba_nor.446
+# ::snt Dei sat fast i heisen i fire timar .
+(s / stick-01
+       :ARG1 (t / they)
+       :ARG2 (e / elevator)
+       :duration (t2 / temporal-quantity
+             :quant 4
+             :unit (h / hour)))
+
+# ::id tatoeba_nor.447
+# ::snt Tom spurde Mary der ho vanlegvis handla .
+(a / ask-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (l / location
+             :location-of (g / go-02
+                   :ARG0 (p2 / person
+                         :name (n2 / name
+                               :op1 "Mary"))
+                   :ARG1 (s / shop-01
+                         :ARG0 p2)
+                   :mod (u / usual)))
+       :ARG2 p2)
+
+# ::id tatoeba_nor.448
+# ::snt Tom må gjera det , anten han vil eller ikkje .
+(o / obligate-01
+       :ARG1 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG2 (d / do-02
+             :ARG0 p
+             :ARG1 (t / that))
+       :ARG1-of (r / regardless-91
+             :ARG2 (w / want-01
+                   :ARG0 p
+                   :ARG1 d)))
+
+# ::id tatoeba_nor.449
+# ::snt Tom skal vel ikkje eta den frosken ?
+(e / eat-01
+       :polarity -
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (f / frog
+             :mod (t / that))
+       :ARG1-of (r / real-04)
+       :ARG1-of (r2 / request-confirmation-91))
+
+# ::id tatoeba_nor.450
+# ::snt Tom blir borte i dag på grunn av forkjøling .
+(a / absent-01
+       :ARG1 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :time (t / today)
+       :ARG1-of (c / cause-01
+             :ARG0 (c2 / cold
+                   :domain p)))
+
+# ::id tatoeba_nor.901
+# ::snt Tom mente mente sikkert ikke det han sa .
+(l / likely-01
+       :ARG1 (m / mean-01
+             :polarity -
+             :ARG0 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG1 (t / thing
+                   :ARG1-of (s / say-01
+                         :ARG0 p))
+             :ARG1-of (r / real-04)))
+
+# ::id tatoeba_nor.902
+# ::snt Tom tar et bad minst tre ganger i uken .
+(b / bathe-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :frequency (r / rate-entity-91
+             :ARG1 (a / at-least
+                   :op1 3)
+             :ARG2 (t / temporal-quantity
+                   :quant 1
+                   :unit (w / week))))
+
+# ::id tatoeba_nor.903
+# ::snt Vanligvis kjøper jeg ikke noe på internett .
+(b / buy-01
+       :polarity -
+       :ARG0 (ii / i)
+       :ARG1 (a / anything)
+       :ARG2 (ii2 / internet)
+       :mod (u / usual))
+
+# ::id tatoeba_nor.904
+# ::snt Hvorfor trodde du at Tom likte heavy metal ?
+(c / cause-01
+       :ARG0 (a / amr-unknown)
+       :ARG1 (t / think-01
+             :ARG0 (y / you)
+             :ARG1 (l / like-01
+                   :ARG0 (p / person
+                         :name (n / name
+                               :op1 "Tom"))
+                   :ARG1 (m / metal
+                         :mod (h / heavy)))))
+
+# ::id tatoeba_nor.905
+# ::snt " Hopp over grøfta . " " Jeg gjør det hvis du gjør det . "
+(m / multi-sentence
+       :snt1 (j / jump-03
+             :mode imperative
+             :ARG0 (y / you)
+             :path (a / across
+                   :op1 (d / ditch)))
+       :snt2 (d2 / do-02
+             :ARG0 (ii / i)
+             :condition (d3 / do-02
+                   :ARG0 (y2 / you))))
+
+# ::id tatoeba_nor.906
+# ::snt Husker du hvordan angriperen så ut ?
+(r / remember-01
+       :ARG0 (y / you)
+       :ARG1 (t / thing
+             :ARG2-of (l / look-02
+                   :ARG0 (p / person
+                         :ARG0-of (a / attack-01))))
+       :polarity (a2 / amr-unknown))
+
+# ::id tatoeba_nor.907
+# ::snt Hver gang jeg ser Tom , har han på seg solbriller .
+(w / wear-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (s / sunglasses)
+       :frequency (r / rate-entity-91
+             :ARG4 (s2 / see-01
+                   :ARG0 (ii / i)
+                   :ARG1 p)))
+
+# ::id tatoeba_nor.908
+# ::snt Han likte ikke å synge , men de tvang ham til å synge .
+(c / contrast-01
+       :ARG1 (d / dislike-01
+             :ARG0 (h / he)
+             :ARG1 (s / sing-01
+                   :ARG0 h))
+       :ARG2 (m / make-02
+             :ARG0 (t / they)
+             :ARG1 s))
+
+# ::id tatoeba_nor.909
+# ::snt Han hørte på musikken med øynene lukket .
+(l / listen-01
+       :ARG0 (h / he
+             :part (e / eye))
+       :ARG1 (m / music)
+       :manner (c / close-01
+             :ARG0 h
+             :ARG1 e))
+
+# ::id tatoeba_nor.910
+# ::snt Jeg spiser alltid noe før jeg drar til skolen .
+(e / eat-01
+       :ARG0 (ii / i)
+       :ARG1 (s / something)
+       :time (b / before
+             :op1 (g / go-02
+                   :ARG0 ii
+                   :ARG4 (s2 / school)))
+       :time (a / always))
+
+# ::id tatoeba_nor.911
+# ::snt Jeg har på følelsen av at du vil bli en veldig god advokat .
+(f / feel-01
+       :ARG0 (ii / i)
+       :ARG1 (l / lawyer
+             :ARG1-of (g / good-03
+                   :degree (v / very))
+             :domain (y / you)))
+
+# ::id tatoeba_nor.912
+# ::snt Jeg sliter noen ganger med smerte i korsryggen .
+(s / suffer-01
+       :ARG0 (ii / i
+             :part (b / back
+                   :ARG1-of (l / low-04
+                         :ARG2-of (h / have-degree-91
+                               :ARG1 b
+                               :ARG3 (m / more)))))
+       :ARG1 (p / pain-01
+             :ARG1 b)
+       :frequency (s2 / sometimes))
+
+# ::id tatoeba_nor.913
+# ::snt På grensen ble jeg bedt om å vise pass .
+(a / ask-02
+       :ARG1 (s / show-01
+             :ARG0 (ii / i)
+             :ARG1 (p / passport
+                   :poss ii)
+             :location (b / border))
+       :ARG2 ii)
+
+# ::id tatoeba_nor.914
+# ::snt Jeg vil alltid huske første gang jeg så Tom .
+(r / remember-01
+       :ARG0 (ii / i)
+       :ARG1 (s / see-01
+             :ARG0 ii
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ord (o / ordinal-entity
+                   :value 1))
+       :time (a / always))
+
+# ::id tatoeba_nor.915
+# ::snt Det kommer til å bli vanskelig å overtale Tom til å synge .
+(h / hard-02
+       :ARG1 (c / convince-01
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG2 (s / sing-01
+                   :ARG0 p)))
+
+# ::id tatoeba_nor.916
+# ::snt Dopsmugleren ble arrestert på flyplassen .
+(a / arrest-01
+       :ARG1 (p / person
+             :ARG0-of (s / smuggle-01
+                   :ARG1 (d / drug)))
+       :location (a2 / airport))
+
+# ::id tatoeba_nor.917
+# ::snt Politiet behandlet Tom som om han var en alminnelig kriminell .
+(t / treat-01
+       :ARG0 (p / police)
+       :ARG1 (p2 / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG2 (p3 / person
+             :ARG2-of (c / criminal-03
+                   :mod (c2 / common))))
+
+# ::id tatoeba_nor.918
+# ::snt Det var få elever igjen i klasserommet .
+(l / leave-15
+       :ARG0 (p / person
+             :ARG0-of (s / study-01)
+             :quant (f / few))
+       :location (c / classroom))
+
+# ::id tatoeba_nor.919
+# ::snt Dette er den beste måten å løse problemet på .
+(m / method
+       :domain (t / this)
+       :ARG1-of (h / have-degree-91
+             :ARG2 (g / good-02
+                   :ARG1 m)
+             :ARG3 (m2 / most))
+       :ARG2-of (s / solve-01
+             :ARG1 (p / problem
+                   :mod (t2 / that))))
+
+# ::id tatoeba_nor.920
+# ::snt Tom kjøpte den bilen fordi kona hans likte den .
+(b / buy-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (c / car
+             :mod (t / that))
+       :ARG1-of (c2 / cause-01
+             :ARG0 (l / like-01
+                   :ARG0 (p2 / person
+                         :ARG0-of (h / have-rel-role-91
+                               :ARG1 p
+                               :ARG2 (w / wife)))
+                   :ARG1 c)))
+
+# ::id tatoeba_nor.921
+# ::snt Tom har allerede gitt Maria det hun spurte etter .
+(g / give-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (t / thing
+             :ARG1-of (a / ask-02
+                   :ARG0 (p2 / person
+                         :name (n2 / name
+                               :op1 "Mary"))))
+       :ARG2 p2
+       :time (a2 / already))
+
+# ::id tatoeba_nor.922
+# ::snt Tom må være veldig glad etter å ha vunnet løpet .
+(ii / infer-01
+       :ARG1 (h / happy-01
+             :ARG1 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :degree (v / very)
+             :time (a / after
+                   :op1 (w / win-01
+                         :ARG0 p
+                         :ARG2 (r / race-02)))))
+
+# ::id tatoeba_nor.923
+# ::snt Tom var den eneste på båten hans da den sank .
+(p / person
+       :name (n / name
+             :op1 "Tom")
+       :mod (o / only)
+       :location (b / boat)
+       :poss-of b
+       :time (s / sink-01
+             :ARG1 b))
+
+# ::id tatoeba_nor.924
+# ::snt Tom vil ikke innrømme at han har gjort noe galt .
+(a / admit-01
+       :polarity -
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (d / do-02
+             :ARG0 p
+             :ARG1 (a2 / anything
+                   :ARG1-of (w / wrong-02))))
+
+# ::id tatoeba_nor.925
+# ::snt Huset til Tom er på den andre siden av elven .
+(h / house
+       :poss (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :location (s / side
+             :mod (o / other)
+             :mod (r / river)))
+
+# ::id tatoeba_nor.926
+# ::snt Ville det vært greit om jeg tok ferie neste uke ?
+(o / okay-04
+       :polarity (a / amr-unknown)
+       :ARG1 (v / vacation-01
+             :ARG0 (ii / i)
+             :time (w / week
+                   :mod (n / next))))
+
+# ::id tatoeba_nor.927
+# ::snt Du må være sulten etter å ha gått så langt .
+(ii / infer-01
+       :ARG1 (s / starve-01
+             :ARG1 (y / you)
+             :time (n / now)
+             :time (a / after
+                   :op1 (w / walk-01
+                         :ARG0 y
+                         :ARG1-of (l / long-03)))))
+
+# ::id tatoeba_nor.928
+# ::snt Kunne du ikke ha fortalt meg om det i går ?
+(p / possible-01
+       :polarity -
+       :ARG1 (t / tell-01
+             :ARG0 (y / you)
+             :ARG1 (t2 / that)
+             :ARG2 (ii / i)
+             :time (y2 / yesterday))
+       :ARG1-of (r / request-confirmation-91))
+
+# ::id tatoeba_nor.929
+# ::snt Han bodde i London da krigen brøt ut .
+(l / live-01
+       :ARG0 (h / he)
+       :location (c / city
+             :name (n / name
+                   :op1 "London"))
+       :time (b / break-13
+             :ARG1 (w / war)))
+
+# ::id tatoeba_nor.930
+# ::snt Han har gjort opp sin mening og nekter å endre den .
+(a / and
+       :op1 (m / make-up-mind-12
+             :ARG0 (h / he))
+       :op2 (r / refuse-01
+             :ARG0 h
+             :ARG1 (c / change-01
+                   :ARG0 h
+                   :ARG1 (m2 / make-up-12))))
+
+# ::id tatoeba_nor.931
+# ::snt Hvor lenge antar du at de har vært der , Tom ?
+(a / ask-01
+       :ARG0 (ii / i)
+       :ARG1 (s / say-01
+             :ARG0 (p / person
+                   :name (n / name
+                         :op1 "Tom"))
+             :ARG1 (b / be-located-at-91
+                   :ARG1 (t / they)
+                   :ARG2 (t2 / there)
+                   :duration (a2 / amr-unknown)))
+       :ARG2 p)
+
+# ::id tatoeba_nor.932
+# ::snt Jeg er ikke vant til å drikke kaffe uten sukker .
+(u / use-02
+       :polarity -
+       :ARG0 (ii / i)
+       :ARG1 (d / drink-01
+             :ARG0 ii
+             :ARG1 (c / coffee)
+             :manner (s / sugar
+                   :polarity -)))
+
+# ::id tatoeba_nor.933
+# ::snt Jeg må snakke med deg om noe personlig .
+(n / need-01
+       :ARG0 (ii / i)
+       :ARG1 (t / talk-01
+             :ARG0 ii
+             :ARG1 (s / something
+                   :ARG1-of (p / personal-02
+                         :ARG2 ii))
+             :ARG2 (y / you)))
+
+# ::id tatoeba_nor.934
+# ::snt Jeg rev i stykker alle brevene du skrev meg .
+(t / tear-up-04
+       :ARG0 (ii / i)
+       :ARG1 (l / letter
+             :mod (a / all)
+             :ARG1-of (w / write-01
+                   :ARG0 (y / you)
+                   :ARG2 ii)))
+
+# ::id tatoeba_nor.935
+# ::snt Jeg skulle ønske at du ikke hadde fortalt den historien til moren min .
+(w / wish-01
+       :ARG0 (ii / i)
+       :ARG1 (t / tell-01
+             :polarity -
+             :ARG0 (y / you)
+             :ARG1 (s / story
+                   :mod (t2 / that))
+             :ARG2 (p / person
+                   :ARG0-of (h / have-rel-role-91
+                         :ARG1 ii
+                         :ARG2 (m / mother)))))
+
+# ::id tatoeba_nor.936
+# ::snt Jeg vil rydde opp huset før foreldrene mine kommer .
+(c / clean-up-02
+       :ARG0 (ii / i)
+       :ARG1 (h / house)
+       :time (b / before
+             :op1 (c2 / come-01
+                   :ARG1 (p / person
+                         :ARG0-of (h2 / have-rel-role-91
+                               :ARG1 ii
+                               :ARG2 (p2 / parent))))))
+
+# ::id tatoeba_nor.937
+# ::snt Beklager , jeg forstår nesten ikke engelsk .
+(c / contrast-01
+       :ARG1 (s / sorry-01
+             :ARG1 (ii / i))
+       :ARG2 (u / understand-01
+             :polarity -
+             :ARG0 ii
+             :ARG1 (l / language
+                   :name (n / name
+                         :op1 "English"))
+             :degree (w / well)))
+
+# ::id tatoeba_nor.938
+# ::snt I et demokrati har alle innbyggere like rettigheter .
+(r / right-05
+       :ARG1 (c / citizen
+             :mod (a / all))
+       :ARG1-of (e / equal-01)
+       :location (d / democracy))
+
+# ::id tatoeba_nor.939
+# ::snt Det er ikke sant , uansett hvem som sier det .
+(a / and
+       :op1 (m / matter-01
+             :polarity -
+             :ARG1 (p / person
+                   :ARG0-of (s / say-01
+                         :ARG1 (t / that))))
+       :op2 (t2 / true-01
+             :polarity -
+             :ARG1 t))
+
+# ::id tatoeba_nor.940
+# ::snt Det var det beste som noen gang har skjedd meg .
+(h / have-degree-91
+       :ARG1 (t / thing
+             :domain (ii / it)
+             :time (e / ever)
+             :beneficiary (ii2 / i))
+       :ARG2 (g / good-02
+             :ARG1 t)
+       :ARG3 (m / most))
+
+# ::id tatoeba_nor.941
+# ::snt Det er ikke lett å skrive et kjærlighetsbrev på engelsk .
+(e / easy-05
+       :polarity -
+       :ARG1 (w / write-01
+             :ARG1 (l / letter
+                   :mod (l2 / love-01)
+                   :medium (l3 / language
+                         :name (n / name
+                               :op1 "English")))))
+
+# ::id tatoeba_nor.942
+# ::snt En million mennesker mistet livet i krigen .
+(l / lose-02
+       :ARG0 (p / person
+             :quant 1000000)
+       :ARG1 (l2 / life
+             :poss p)
+       :ARG2 (w / war))
+
+# ::id tatoeba_nor.943
+# ::snt Ta med noen flasker vann til møterommet .
+(t / take-01
+       :mode imperative
+       :ARG0 (y / you)
+       :ARG1 (w / water
+             :quant (v / volume-quantity
+                   :quant 1
+                   :unit (b / bottle)))
+       :ARG3 (r / room
+             :location-of (m / meet-03)))
+
+# ::id tatoeba_nor.944
+# ::snt Bare tanken på slanger gjør henne blek .
+(m / make-02
+       :ARG0 (t / think-01
+             :ARG0 (s / she)
+             :ARG1 (s2 / snake)
+             :degree (v / very))
+       :ARG1 (t2 / turn-02
+             :ARG1 s
+             :ARG2 (p / pale-03
+                   :ARG1 s)))
+
+# ::id tatoeba_nor.945
+# ::snt Det er ikke mange synagoger i denne byen .
+(s / synagogue
+       :quant (m / many
+             :polarity -
+             :degree (t / that))
+       :location (c / city
+             :mod (t2 / this)))
+
+# ::id tatoeba_nor.946
+# ::snt De satt fast i heisen i fire timer .
+(s / stick-01
+       :ARG1 (t / they)
+       :ARG2 (e / elevator)
+       :duration (t2 / temporal-quantity
+             :quant 4
+             :unit (h / hour)))
+
+# ::id tatoeba_nor.947
+# ::snt Tom spurte Mary hvor hun vanligvis handlet .
+(a / ask-01
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (l / location
+             :location-of (g / go-02
+                   :ARG0 (p2 / person
+                         :name (n2 / name
+                               :op1 "Mary"))
+                   :ARG1 (s / shop-01
+                         :ARG0 p2)
+                   :mod (u / usual)))
+       :ARG2 p2)
+
+# ::id tatoeba_nor.948
+# ::snt Tom må gjøre det , enten han vil eller ikke .
+(o / obligate-01
+       :ARG1 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG2 (d / do-02
+             :ARG0 p
+             :ARG1 (t / that))
+       :ARG1-of (r / regardless-91
+             :ARG2 (w / want-01
+                   :ARG0 p
+                   :ARG1 d)))
+
+# ::id tatoeba_nor.949
+# ::snt Tom skal vel ikke spise den frosken ?
+(e / eat-01
+       :polarity -
+       :ARG0 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :ARG1 (f / frog
+             :mod (t / that))
+       :ARG1-of (r / real-04)
+       :ARG1-of (r2 / request-confirmation-91))
+
+# ::id tatoeba_nor.950
+# ::snt Tom blir borte i dag på grunn av forkjølelse .
+(a / absent-01
+       :ARG1 (p / person
+             :name (n / name
+                   :op1 "Tom"))
+       :time (t / today)
+       :ARG1-of (c / cause-01
+             :ARG0 (c2 / cold
+                   :domain p)))
+

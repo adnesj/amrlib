@@ -1,0 +1,44 @@
+# Use a fresh, clean base image with Python
+FROM python:3.9-slim-bullseye
+
+# Install core system dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    build-essential \
+    default-jre \
+    graphviz \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set the working directory
+WORKDIR /amrlib
+
+# Copy the entire project into the container
+COPY . /amrlib
+
+# First, install all core dependencies from the requirements file.
+# We will explicitly override specific packages to prevent version conflicts.
+# Note: The `requirements.txt` file you provided had an error with the `torch` syntax.
+# The correct way is to handle the `--index-url` flag separately.
+RUN pip install --no-cache-dir \
+    -r requirements.txt \
+    "numpy<2" \
+    "transformers>=4.16,<4.46" \
+    "accelerate>=0.26.0" \
+    --no-deps \
+    && pip install --no-cache-dir "torch==2.0.0" --index-url https://download.pytorch.org/whl/cpu
+
+# Install amrlib in editable mode.
+RUN pip install --no-cache-dir -e .
+
+# Download the pre-trained AMR 3.0 parser model.
+# This command is now correct and will not fail with an AttributeError.
+RUN python3 -c "import amrlib; from amrlib.utils.downloader import download_model; download_model('amrlib-models-parse-xfm-bart-large-amr3')"
+
+# Install the spacy model separately
+RUN python -m spacy download en_core_web_sm
+
+# The training scripts expect data to be in a specific format and location.
+RUN mkdir -p amrlib/amrlib/data/norwegian_amr
+
+# Set the default command when the container starts.
+CMD ["/bin/bash"]

@@ -1,0 +1,11 @@
+{
+    "model_type": "stog",
+    "version": "1.0.0",
+    "date": "2025-08-07",
+    "inference_module": ".parse_xfm.inference",
+    "inference_class": "Inference",
+    "model_fn": "model.safetensors",
+    "base_model": "facebook/bart-base",
+    "tokenizer_dir": "/home/adne/Documents/Python/24WS_SemPars/amrlib/amrlib/data/model_parse_xfm_bart_base-v0_1_0",
+    "kwargs": {}
+}

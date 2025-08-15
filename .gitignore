@@ -1,0 +1,38 @@
+docs/build/
+build/
+dist/
+runs/
+#amrlib/data
+*.egg-info/
+.private/
+__pycache__
+*.pyc
+*.swp
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Virtual environments
+.venv/
+venv/
+env/
+amrlib_env/
+
+# Docker-specific files
+# Docker build context directories and files
+Dockerfile.bak
+*.docker-bak
+
+# Temporary files
+*.tmp
+*.log
+
+# VS Code specific files (optional)
+.vscode/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
