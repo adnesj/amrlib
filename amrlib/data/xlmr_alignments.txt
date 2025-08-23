@@ -1,0 +1,596 @@
+--- Pair 1 ---
+EN: I met a dog on my way home.
+NO: Eg trefte ein hund på vegen heim.
+
+Alignments:
+▁I ↔ te (cosine sim: 0.9887)
+▁met ↔ te (cosine sim: 0.9896)
+▁a ↔ ▁ein (cosine sim: 0.9911)
+▁dog ↔ ▁hund (cosine sim: 0.9951)
+▁on ↔ ▁på (cosine sim: 0.9903)
+▁my ↔ None (cosine sim: 0.9827)
+▁way ↔ None (cosine sim: 0.9738)
+▁home ↔ ▁heim (cosine sim: 0.9895)
+. ↔ . (cosine sim: 0.9990)
+
+--- Pair 2 ---
+EN: He loves you as much as I do.
+NO: Han elskar deg like mykje som eg gjer.
+
+Alignments:
+▁He ↔ ▁Han (cosine sim: 0.9932)
+▁love ↔ None (cosine sim: 0.9839)
+s ↔ None (cosine sim: 0.9863)
+▁you ↔ None (cosine sim: 0.9862)
+▁as ↔ None (cosine sim: 0.9809)
+▁much ↔ None (cosine sim: 0.9786)
+▁as ↔ ▁som (cosine sim: 0.9881)
+▁I ↔ ▁Han (cosine sim: 0.9878)
+▁do ↔ None (cosine sim: 0.9807)
+. ↔ . (cosine sim: 0.9970)
+
+--- Pair 3 ---
+EN: I did what Tom asked me to do.
+NO: Eg gjorde det Tom bad meg om å gjera.
+
+Alignments:
+▁I ↔ ▁meg (cosine sim: 0.9883)
+▁did ↔ ▁gjorde (cosine sim: 0.9922)
+▁what ↔ None (cosine sim: 0.9868)
+▁Tom ↔ None (cosine sim: 0.9859)
+▁asked ↔ None (cosine sim: 0.9842)
+▁me ↔ ▁meg (cosine sim: 0.9937)
+▁to ↔ None (cosine sim: 0.9824)
+▁do ↔ ▁gjorde (cosine sim: 0.9886)
+. ↔ . (cosine sim: 0.9978)
+
+--- Pair 4 ---
+EN: I met Tom on my way to school.
+NO: Eg møtte Tom på veg til skulen.
+
+Alignments:
+▁I ↔ ▁Tom (cosine sim: 0.9874)
+▁met ↔ None (cosine sim: 0.9867)
+▁Tom ↔ ▁Tom (cosine sim: 0.9968)
+▁on ↔ ▁på (cosine sim: 0.9889)
+▁my ↔ None (cosine sim: 0.9787)
+▁way ↔ None (cosine sim: 0.9798)
+▁to ↔ None (cosine sim: 0.9823)
+▁school ↔ None (cosine sim: 0.9836)
+. ↔ . (cosine sim: 0.9986)
+
+--- Pair 5 ---
+EN: This desk is a bit low for me.
+NO: Dette skrivebordet er litt lågt for meg.
+
+Alignments:
+▁This ↔ ▁Dette (cosine sim: 0.9945)
+▁de ↔ None (cosine sim: 0.9822)
+sk ↔ None (cosine sim: 0.9863)
+▁is ↔ ▁er (cosine sim: 0.9918)
+▁a ↔ None (cosine sim: 0.9838)
+▁bit ↔ ▁litt (cosine sim: 0.9934)
+▁low ↔ ▁litt (cosine sim: 0.9874)
+▁for ↔ ▁for (cosine sim: 0.9955)
+▁me ↔ ▁meg (cosine sim: 0.9967)
+. ↔ . (cosine sim: 0.9993)
+
+--- Pair 6 ---
+EN: Tom has as many books as I do.
+NO: Tom har like mange bøker som eg.
+
+Alignments:
+▁Tom ↔ ▁Tom (cosine sim: 0.9967)
+▁has ↔ ▁har (cosine sim: 0.9941)
+▁as ↔ ▁like (cosine sim: 0.9875)
+▁many ↔ ▁mange (cosine sim: 0.9931)
+▁books ↔ ▁bøker (cosine sim: 0.9964)
+▁as ↔ None (cosine sim: 0.9862)
+▁I ↔ None (cosine sim: 0.9855)
+▁do ↔ None (cosine sim: 0.9791)
+. ↔ . (cosine sim: 0.9979)
+
+--- Pair 7 ---
+EN: Why do you want to talk to me?
+NO: Kvifor vil du snakka med meg?
+
+Alignments:
+▁Why ↔ ▁K (cosine sim: 0.9870)
+▁do ↔ None (cosine sim: 0.9863)
+▁you ↔ ▁du (cosine sim: 0.9938)
+▁want ↔ None (cosine sim: 0.9870)
+▁to ↔ None (cosine sim: 0.9776)
+▁talk ↔ ▁snakk (cosine sim: 0.9892)
+▁to ↔ None (cosine sim: 0.9778)
+▁me ↔ ▁meg (cosine sim: 0.9957)
+? ↔ ? (cosine sim: 0.9974)
+
+--- Pair 8 ---
+EN: I don't know why Tom is so mad.
+NO: Eg veit ikkje kvifor Tom er så sint.
+
+Alignments:
+▁I ↔ ▁Eg (cosine sim: 0.9905)
+▁don ↔ None (cosine sim: 0.9851)
+' ↔ None (cosine sim: 0.9800)
+t ↔ None (cosine sim: 0.9867)
+▁know ↔ ▁veit (cosine sim: 0.9908)
+▁why ↔ None (cosine sim: 0.9806)
+▁Tom ↔ ▁Tom (cosine sim: 0.9966)
+▁is ↔ ▁er (cosine sim: 0.9913)
+▁so ↔ ▁så (cosine sim: 0.9945)
+▁mad ↔ ▁sint (cosine sim: 0.9891)
+. ↔ . (cosine sim: 0.9986)
+
+--- Pair 9 ---
+EN: I don't want to be rude to Tom.
+NO: Eg vil ikkje vera frekk mot Tom.
+
+Alignments:
+▁I ↔ ▁Eg (cosine sim: 0.9910)
+▁don ↔ None (cosine sim: 0.9829)
+' ↔ None (cosine sim: 0.9801)
+t ↔ k (cosine sim: 0.9896)
+▁want ↔ None (cosine sim: 0.9845)
+▁to ↔ None (cosine sim: 0.9870)
+▁be ↔ ▁vera (cosine sim: 0.9893)
+▁rude ↔ None (cosine sim: 0.9851)
+▁to ↔ ▁mot (cosine sim: 0.9899)
+▁Tom ↔ ▁Tom (cosine sim: 0.9975)
+. ↔ . (cosine sim: 0.9985)
+
+--- Pair 10 ---
+EN: I had no idea Tom was on board.
+NO: Eg ante ikkje at Tom var om bord.
+
+Alignments:
+▁I ↔ ▁Eg (cosine sim: 0.9906)
+▁had ↔ ▁var (cosine sim: 0.9881)
+▁no ↔ None (cosine sim: 0.9862)
+▁idea ↔ ▁ante (cosine sim: 0.9879)
+▁Tom ↔ ▁Tom (cosine sim: 0.9971)
+▁was ↔ ▁var (cosine sim: 0.9922)
+▁on ↔ None (cosine sim: 0.9841)
+▁board ↔ ▁Tom (cosine sim: 0.9883)
+. ↔ . (cosine sim: 0.9984)
+
+--- Pair 11 ---
+EN: I wish I could fly like a bird.
+NO: Eg skulle ønskja at eg kunne fly som ein fugl.
+
+Alignments:
+▁I ↔ None (cosine sim: 0.9862)
+▁wish ↔ None (cosine sim: 0.9761)
+▁I ↔ None (cosine sim: 0.9860)
+▁could ↔ ▁kunne (cosine sim: 0.9910)
+▁fly ↔ ▁fly (cosine sim: 0.9974)
+▁like ↔ None (cosine sim: 0.9845)
+▁a ↔ None (cosine sim: 0.9838)
+▁bir ↔ None (cosine sim: 0.9779)
+d ↔ None (cosine sim: 0.9819)
+. ↔ . (cosine sim: 0.9974)
+
+--- Pair 12 ---
+EN: I'd like to drink a cup of tea.
+NO: Eg har lyst på ein kopp te.
+
+Alignments:
+▁I ↔ . (cosine sim: 0.9890)
+' ↔ None (cosine sim: 0.9812)
+d ↔ None (cosine sim: 0.9826)
+▁like ↔ None (cosine sim: 0.9808)
+▁to ↔ None (cosine sim: 0.9823)
+▁drink ↔ None (cosine sim: 0.9845)
+▁a ↔ None (cosine sim: 0.9830)
+▁cup ↔ None (cosine sim: 0.9850)
+▁of ↔ None (cosine sim: 0.9765)
+▁tea ↔ None (cosine sim: 0.9841)
+. ↔ . (cosine sim: 0.9963)
+
+--- Pair 13 ---
+EN: It's time for you to go to bed.
+NO: Det er tid for deg å gå til sengs.
+
+Alignments:
+▁It ↔ None (cosine sim: 0.9862)
+' ↔ None (cosine sim: 0.9817)
+s ↔ ▁er (cosine sim: 0.9887)
+▁time ↔ ▁tid (cosine sim: 0.9946)
+▁for ↔ ▁for (cosine sim: 0.9895)
+▁you ↔ ▁deg (cosine sim: 0.9953)
+▁to ↔ ▁å (cosine sim: 0.9880)
+▁go ↔ ▁gå (cosine sim: 0.9947)
+▁to ↔ None (cosine sim: 0.9854)
+▁bed ↔ ▁gå (cosine sim: 0.9878)
+. ↔ . (cosine sim: 0.9987)
+
+--- Pair 14 ---
+EN: Tom has as many stamps as I do.
+NO: Tom har like mange frimerke som eg.
+
+Alignments:
+▁Tom ↔ ▁Tom (cosine sim: 0.9969)
+▁has ↔ ▁har (cosine sim: 0.9937)
+▁as ↔ None (cosine sim: 0.9869)
+▁many ↔ ▁mange (cosine sim: 0.9933)
+▁stamp ↔ ▁fri (cosine sim: 0.9897)
+s ↔ ▁har (cosine sim: 0.9885)
+▁as ↔ ▁som (cosine sim: 0.9885)
+▁I ↔ None (cosine sim: 0.9845)
+▁do ↔ None (cosine sim: 0.9798)
+. ↔ . (cosine sim: 0.9959)
+
+--- Pair 15 ---
+EN: Why did you want to talk to me?
+NO: Kvifor ville du snakka med meg?
+
+Alignments:
+▁Why ↔ None (cosine sim: 0.9868)
+▁did ↔ ▁du (cosine sim: 0.9871)
+▁you ↔ ▁du (cosine sim: 0.9942)
+▁want ↔ None (cosine sim: 0.9869)
+▁to ↔ None (cosine sim: 0.9794)
+▁talk ↔ ▁snakk (cosine sim: 0.9883)
+▁to ↔ None (cosine sim: 0.9777)
+▁me ↔ ▁meg (cosine sim: 0.9952)
+? ↔ ? (cosine sim: 0.9973)
+
+--- Pair 16 ---
+EN: As far as I know, he won't come.
+NO: Han kjem ikkje, så vidt eg veit.
+
+Alignments:
+▁As ↔ None (cosine sim: 0.9865)
+▁far ↔ None (cosine sim: 0.9745)
+▁as ↔ None (cosine sim: 0.9797)
+▁I ↔ ▁Han (cosine sim: 0.9904)
+▁know ↔ ▁veit (cosine sim: 0.9871)
+, ↔ , (cosine sim: 0.9970)
+▁he ↔ ▁Han (cosine sim: 0.9945)
+▁won ↔ None (cosine sim: 0.9864)
+' ↔ None (cosine sim: 0.9816)
+t ↔ None (cosine sim: 0.9865)
+▁come ↔ None (cosine sim: 0.9851)
+. ↔ . (cosine sim: 0.9984)
+
+--- Pair 17 ---
+EN: Do you have a son or a daughter?
+NO: Har de ein son eller ei dotter?
+
+Alignments:
+▁Do ↔ None (cosine sim: 0.9849)
+▁you ↔ None (cosine sim: 0.9856)
+▁have ↔ None (cosine sim: 0.9844)
+▁a ↔ None (cosine sim: 0.9782)
+▁son ↔ ▁son (cosine sim: 0.9962)
+▁or ↔ ▁eller (cosine sim: 0.9949)
+▁a ↔ None (cosine sim: 0.9776)
+▁daughter ↔ ▁dotter (cosine sim: 0.9929)
+? ↔ ? (cosine sim: 0.9977)
+
+--- Pair 18 ---
+EN: He gave his seat to the old man.
+NO: Han gav setet sitt til den gamle mannen.
+
+Alignments:
+▁He ↔ ▁Han (cosine sim: 0.9953)
+▁gave ↔ ▁gav (cosine sim: 0.9947)
+▁his ↔ None (cosine sim: 0.9858)
+▁se ↔ None (cosine sim: 0.9863)
+at ↔ None (cosine sim: 0.9828)
+▁to ↔ ▁til (cosine sim: 0.9911)
+▁the ↔ None (cosine sim: 0.9844)
+▁old ↔ ▁gamle (cosine sim: 0.9939)
+▁man ↔ ▁mannen (cosine sim: 0.9904)
+. ↔ . (cosine sim: 0.9980)
+
+--- Pair 19 ---
+EN: I don't know if I have the time.
+NO: Eg veit ikkje om eg har tid.
+
+Alignments:
+▁I ↔ . (cosine sim: 0.9886)
+▁don ↔ None (cosine sim: 0.9817)
+' ↔ None (cosine sim: 0.9794)
+t ↔ None (cosine sim: 0.9810)
+▁know ↔ None (cosine sim: 0.9863)
+▁if ↔ ▁om (cosine sim: 0.9898)
+▁I ↔ None (cosine sim: 0.9868)
+▁have ↔ ▁har (cosine sim: 0.9901)
+▁the ↔ None (cosine sim: 0.9816)
+▁time ↔ ▁tid (cosine sim: 0.9945)
+. ↔ . (cosine sim: 0.9972)
+
+--- Pair 20 ---
+EN: I don't know if I still have it.
+NO: Eg veit ikkje om eg framleis har han.
+
+Alignments:
+▁I ↔ ▁Eg (cosine sim: 0.9894)
+▁don ↔ None (cosine sim: 0.9814)
+' ↔ None (cosine sim: 0.9795)
+t ↔ None (cosine sim: 0.9804)
+▁know ↔ None (cosine sim: 0.9866)
+▁if ↔ ▁om (cosine sim: 0.9911)
+▁I ↔ ▁Eg (cosine sim: 0.9872)
+▁still ↔ None (cosine sim: 0.9844)
+▁have ↔ ▁har (cosine sim: 0.9902)
+▁it ↔ None (cosine sim: 0.9870)
+. ↔ . (cosine sim: 0.9976)
+
+--- Pair 21 ---
+EN: I know how much it means to you.
+NO: Eg veit kor mykje det betyr for deg.
+
+Alignments:
+▁I ↔ None (cosine sim: 0.9860)
+▁know ↔ ▁veit (cosine sim: 0.9879)
+▁how ↔ None (cosine sim: 0.9788)
+▁much ↔ None (cosine sim: 0.9802)
+▁it ↔ None (cosine sim: 0.9832)
+▁means ↔ ▁betyr (cosine sim: 0.9904)
+▁to ↔ None (cosine sim: 0.9776)
+▁you ↔ ▁deg (cosine sim: 0.9945)
+. ↔ . (cosine sim: 0.9975)
+
+--- Pair 22 ---
+EN: I wish I could sing like you do.
+NO: Eg skulle ønskja eg kunne syngja som deg.
+
+Alignments:
+▁I ↔ . (cosine sim: 0.9879)
+▁wish ↔ None (cosine sim: 0.9730)
+▁I ↔ ▁deg (cosine sim: 0.9870)
+▁could ↔ ▁kunne (cosine sim: 0.9921)
+▁sing ↔ ▁deg (cosine sim: 0.9878)
+▁like ↔ None (cosine sim: 0.9837)
+▁you ↔ ▁deg (cosine sim: 0.9920)
+▁do ↔ None (cosine sim: 0.9819)
+. ↔ . (cosine sim: 0.9978)
+
+--- Pair 23 ---
+EN: She has a cat. The cat is white.
+NO: Ho har ein katt. Katten er kvit.
+
+Alignments:
+▁She ↔ . (cosine sim: 0.9880)
+▁has ↔ None (cosine sim: 0.9820)
+▁a ↔ None (cosine sim: 0.9832)
+▁cat ↔ ▁kat (cosine sim: 0.9890)
+. ↔ . (cosine sim: 0.9976)
+▁The ↔ None (cosine sim: 0.9821)
+▁cat ↔ ▁kat (cosine sim: 0.9882)
+▁is ↔ None (cosine sim: 0.9823)
+▁white ↔ None (cosine sim: 0.9849)
+. ↔ . (cosine sim: 0.9975)
+
+--- Pair 24 ---
+EN: Tom can eat as much as he wants.
+NO: Tom kan eta så mykje han vil.
+
+Alignments:
+▁Tom ↔ ▁Tom (cosine sim: 0.9984)
+▁can ↔ ▁kan (cosine sim: 0.9936)
+▁eat ↔ ▁kan (cosine sim: 0.9872)
+▁as ↔ None (cosine sim: 0.9867)
+▁much ↔ None (cosine sim: 0.9842)
+▁as ↔ None (cosine sim: 0.9821)
+▁he ↔ ▁han (cosine sim: 0.9916)
+▁wants ↔ None (cosine sim: 0.9864)
+. ↔ . (cosine sim: 0.9972)
+
+--- Pair 25 ---
+EN: We all have a right to be happy.
+NO: Me har alle rett til å vera lykkelege.
+
+Alignments:
+▁We ↔ ▁Me (cosine sim: 0.9883)
+▁all ↔ ▁alle (cosine sim: 0.9928)
+▁have ↔ ▁har (cosine sim: 0.9906)
+▁a ↔ None (cosine sim: 0.9826)
+▁right ↔ ▁rett (cosine sim: 0.9897)
+▁to ↔ None (cosine sim: 0.9850)
+▁be ↔ None (cosine sim: 0.9838)
+▁happy ↔ lykke (cosine sim: 0.9875)
+. ↔ . (cosine sim: 0.9978)
+
+--- Pair 26 ---
+EN: We use a lot of water every day.
+NO: Me bruker mykje vatn kvar dag.
+
+Alignments:
+▁We ↔ ▁bruker (cosine sim: 0.9890)
+▁use ↔ ▁bruker (cosine sim: 0.9927)
+▁a ↔ None (cosine sim: 0.9808)
+▁lot ↔ ▁bruker (cosine sim: 0.9885)
+▁of ↔ None (cosine sim: 0.9804)
+▁water ↔ ▁vatn (cosine sim: 0.9935)
+▁every ↔ ▁kvar (cosine sim: 0.9874)
+▁day ↔ ▁dag (cosine sim: 0.9941)
+. ↔ . (cosine sim: 0.9971)
+
+--- Pair 27 ---
+EN: You don't know who I am, do you?
+NO: Du veit ikkje kven eg er, gjer du?
+
+Alignments:
+▁You ↔ ▁Du (cosine sim: 0.9926)
+▁don ↔ None (cosine sim: 0.9827)
+' ↔ None (cosine sim: 0.9828)
+t ↔ None (cosine sim: 0.9855)
+▁know ↔ ▁veit (cosine sim: 0.9884)
+▁who ↔ None (cosine sim: 0.9821)
+▁I ↔ ▁Du (cosine sim: 0.9889)
+▁am ↔ None (cosine sim: 0.9806)
+, ↔ , (cosine sim: 0.9975)
+▁do ↔ None (cosine sim: 0.9829)
+▁you ↔ ▁du (cosine sim: 0.9910)
+? ↔ ? (cosine sim: 0.9966)
+
+--- Pair 28 ---
+EN: He is not a teacher but a doctor.
+NO: Han er ikkje lærar, men lege.
+
+Alignments:
+▁He ↔ ▁Han (cosine sim: 0.9957)
+▁is ↔ ▁er (cosine sim: 0.9910)
+▁not ↔ ▁er (cosine sim: 0.9872)
+▁a ↔ None (cosine sim: 0.9844)
+▁teacher ↔ ▁lege (cosine sim: 0.9897)
+▁but ↔ ▁men (cosine sim: 0.9923)
+▁a ↔ None (cosine sim: 0.9834)
+▁doctor ↔ ▁lege (cosine sim: 0.9909)
+. ↔ . (cosine sim: 0.9988)
+
+--- Pair 29 ---
+EN: I can see why you don't like Tom.
+NO: Eg kan forstå kvifor du ikkje liker Tom.
+
+Alignments:
+▁I ↔ ▁Eg (cosine sim: 0.9917)
+▁can ↔ ▁kan (cosine sim: 0.9907)
+▁see ↔ ▁forstå (cosine sim: 0.9873)
+▁why ↔ None (cosine sim: 0.9811)
+▁you ↔ ▁du (cosine sim: 0.9943)
+▁don ↔ None (cosine sim: 0.9852)
+' ↔ None (cosine sim: 0.9808)
+t ↔ None (cosine sim: 0.9848)
+▁like ↔ ▁liker (cosine sim: 0.9929)
+▁Tom ↔ ▁Tom (cosine sim: 0.9980)
+. ↔ . (cosine sim: 0.9984)
+
+--- Pair 30 ---
+EN: I have a hunch that it will rain.
+NO: Eg har ei aning om at det vil regna.
+
+Alignments:
+▁I ↔ . (cosine sim: 0.9887)
+▁have ↔ ▁har (cosine sim: 0.9911)
+▁a ↔ None (cosine sim: 0.9825)
+▁hun ↔ None (cosine sim: 0.9722)
+ch ↔ None (cosine sim: 0.9818)
+▁that ↔ ▁at (cosine sim: 0.9896)
+▁it ↔ ▁det (cosine sim: 0.9896)
+▁will ↔ ▁vil (cosine sim: 0.9918)
+▁rain ↔ ▁regna (cosine sim: 0.9903)
+. ↔ . (cosine sim: 0.9982)
+
+--- Pair 31 ---
+EN: I wish I could go with you today.
+NO: Eg skulle ønskja eg kunne dra med deg i dag.
+
+Alignments:
+▁I ↔ . (cosine sim: 0.9878)
+▁wish ↔ None (cosine sim: 0.9749)
+▁I ↔ None (cosine sim: 0.9863)
+▁could ↔ ▁kunne (cosine sim: 0.9922)
+▁go ↔ ▁dra (cosine sim: 0.9910)
+▁with ↔ ▁med (cosine sim: 0.9902)
+▁you ↔ ▁deg (cosine sim: 0.9938)
+▁today ↔ ▁dag (cosine sim: 0.9901)
+. ↔ . (cosine sim: 0.9986)
+
+--- Pair 32 ---
+EN: It was dark and cold in the room.
+NO: Det var mørkt og kaldt i rommet.
+
+Alignments:
+▁It ↔ None (cosine sim: 0.9857)
+▁was ↔ ▁var (cosine sim: 0.9939)
+▁dark ↔ ▁mørk (cosine sim: 0.9937)
+▁and ↔ ▁og (cosine sim: 0.9904)
+▁cold ↔ ▁kaldt (cosine sim: 0.9934)
+▁in ↔ ▁i (cosine sim: 0.9903)
+▁the ↔ None (cosine sim: 0.9837)
+▁room ↔ rommet (cosine sim: 0.9914)
+. ↔ . (cosine sim: 0.9991)
+
+--- Pair 33 ---
+EN: The worst they can do is kill me.
+NO: Det verste dei kan gjera er å drepa meg.
+
+Alignments:
+▁The ↔ None (cosine sim: 0.9863)
+▁worst ↔ ▁verste (cosine sim: 0.9895)
+▁they ↔ None (cosine sim: 0.9859)
+▁can ↔ ▁kan (cosine sim: 0.9916)
+▁do ↔ None (cosine sim: 0.9785)
+▁is ↔ ▁er (cosine sim: 0.9890)
+▁kill ↔ ▁drep (cosine sim: 0.9915)
+▁me ↔ ▁meg (cosine sim: 0.9944)
+. ↔ . (cosine sim: 0.9986)
+
+--- Pair 34 ---
+EN: Tom says he has to wait for Mary.
+NO: Tom seier han må venta på Maria.
+
+Alignments:
+▁Tom ↔ ▁Tom (cosine sim: 0.9933)
+▁says ↔ None (cosine sim: 0.9850)
+▁he ↔ ▁han (cosine sim: 0.9950)
+▁has ↔ None (cosine sim: 0.9863)
+▁to ↔ None (cosine sim: 0.9838)
+▁wait ↔ ▁må (cosine sim: 0.9886)
+▁for ↔ None (cosine sim: 0.9851)
+▁Mary ↔ ▁Maria (cosine sim: 0.9911)
+. ↔ . (cosine sim: 0.9985)
+
+--- Pair 35 ---
+EN: We have to make up for lost time.
+NO: Me må kompensera for tapt tid.
+
+Alignments:
+▁We ↔ ▁Me (cosine sim: 0.9914)
+▁have ↔ ▁må (cosine sim: 0.9874)
+▁to ↔ None (cosine sim: 0.9824)
+▁make ↔ None (cosine sim: 0.9854)
+▁up ↔ None (cosine sim: 0.9797)
+▁for ↔ ▁for (cosine sim: 0.9945)
+▁lost ↔ None (cosine sim: 0.9862)
+▁time ↔ ▁tid (cosine sim: 0.9942)
+. ↔ . (cosine sim: 0.9977)
+
+--- Pair 36 ---
+EN: You can stay as long as you like.
+NO: Du kan bli så lenge du vil.
+
+Alignments:
+▁You ↔ ▁Du (cosine sim: 0.9965)
+▁can ↔ ▁kan (cosine sim: 0.9927)
+▁stay ↔ ▁bli (cosine sim: 0.9896)
+▁as ↔ ▁så (cosine sim: 0.9876)
+▁long ↔ None (cosine sim: 0.9819)
+▁as ↔ None (cosine sim: 0.9810)
+▁you ↔ ▁Du (cosine sim: 0.9903)
+▁like ↔ None (cosine sim: 0.9835)
+. ↔ . (cosine sim: 0.9971)
+
+--- Pair 37 ---
+EN: You may talk as much as you like.
+NO: Du kan snakka så mykje du vil.
+
+Alignments:
+▁You ↔ ▁Du (cosine sim: 0.9966)
+▁may ↔ ▁kan (cosine sim: 0.9895)
+▁talk ↔ ▁snakk (cosine sim: 0.9905)
+▁as ↔ None (cosine sim: 0.9863)
+▁much ↔ None (cosine sim: 0.9812)
+▁as ↔ None (cosine sim: 0.9820)
+▁you ↔ ▁du (cosine sim: 0.9889)
+▁like ↔ None (cosine sim: 0.9825)
+. ↔ . (cosine sim: 0.9975)
+
+--- Pair 38 ---
+EN: How do you count to ten in French?
+NO: Korleis tel ein til ti på fransk?
+
+Alignments:
+▁How ↔ None (cosine sim: 0.9809)
+▁do ↔ None (cosine sim: 0.9825)
+▁you ↔ None (cosine sim: 0.9854)
+▁count ↔ None (cosine sim: 0.9859)
+▁to ↔ ▁til (cosine sim: 0.9887)
+▁ten ↔ None (cosine sim: 0.9866)
+▁in ↔ None (cosine sim: 0.9831)
+▁French ↔ ▁fransk (cosine sim: 0.9933)
+? ↔ ? (cosine sim: 0.9964)
