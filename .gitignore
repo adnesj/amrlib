@@ -40,3 +40,17 @@ Thumbs.db
 amrlib/data/nor1000_model_generate_xfm/
 
 amrlib/data/model_generate_t5wtense-v0_1_0/
+
+amrlib/data/nor1000_model_parse_xfm/checkpoint-1008/model.safetensors
+
+amrlib/data/nor_model_parse_xfm/checkpoint-750/model.safetensors
+
+amrlib/data/model_parse_xfm_bart_base-v0_1_0/pytorch_model.bin
+
+amrlib/data/nor1000_model_parse_xfm/checkpoint-1008/optimizer.pt
+
+amrlib/data/model_parse_xfm_bart_base-v0_1_0/tokenizer.json
+
+amrlib/data/model_parse_xfm_bart_base-v0_1_0/vocab.json
+
+amrlib/data/model_parse_xfm_bart_base-v0_1_0/merges.txt
